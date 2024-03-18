@@ -29,7 +29,7 @@ function Portfolio() {
               </button>
             </a>
           </div>
-          <img src="/images/quotes.jpeg" alt="random quotes" id="quoteImage" />
+          <img src="/Portfolio/images/quotes.jpeg" alt="random quotes" id="quoteImage" />
         </div>
         {/* ------------- PROJECT 2 ------------------ */}
         <div className="project">
@@ -45,7 +45,7 @@ function Portfolio() {
               </button>
             </a>
           </div>
-          <img src="/images/drum.jpg" alt="drums" id="drumImage" />
+          <img src="/Portfolio/images/drum.jpg" alt="drums" id="drumImage" />
         </div>
         {/* ------------- PROJECT 3 ------------------ */}
         <div className="project">
@@ -62,7 +62,7 @@ function Portfolio() {
             </a>
           </div>
           <img
-            src="/images/todolist.jpg"
+            src="/Portfolio/images/todolist.jpg"
             alt="todolist image"
             id="todolistImage"
           />
@@ -85,7 +85,7 @@ function Portfolio() {
             </a>
           </div>
           <img
-            src="/images/markdown.png"
+            src="/Portfolio/images/markdown.png"
             alt="markdown logo"
             id="markdownImage"
           />
@@ -108,7 +108,7 @@ function Portfolio() {
             </a>
           </div>
           <img
-            src="/images/dragon.jpg"
+            src="/Portfolio/images/dragon.jpg"
             alt="dragon standing on mountain"
             id="dragonImage"
           />
@@ -131,7 +131,7 @@ function Portfolio() {
             </a>
           </div>
           <img
-            src="/images/palindrome.jpg"
+            src="/Portfolio/images/palindrome.jpg"
             alt="palindrome spelt out"
             id="palindromeImage"
           />

@@ -72,7 +72,7 @@ function About() {
         <div id="myImage">
           <div id="image" className="firstImageAnimation">
             <img
-              src="/images/Baraka Chilling.svg"
+              src="/Portfolio/images/Baraka Chilling.svg"
               alt="Baraka karuru"
               id="karuru"
             />
