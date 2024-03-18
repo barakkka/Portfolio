@@ -868,6 +868,10 @@ input[type="submit"] {
     width: 11.5rem;
     height: 64%;
   }
+  #firstP {
+    border: 1px solid white;
+    padding: 0 10px;
+  }
 
   /*-----About-----*/
   #aboutWrapper #homeWrapper #myImage .octagon {

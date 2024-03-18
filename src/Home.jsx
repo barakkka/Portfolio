@@ -86,7 +86,7 @@ function Home() {
               <div></div>
             </div>
           </div>
-          <p>
+          <p id="firstP">
             Genuinely interested and driven towards creating visually appealing
             interfaces that are dynamic and responsive.
           </p>
