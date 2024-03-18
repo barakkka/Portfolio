@@ -196,6 +196,7 @@ a {
   display: flex;
   align-items: center;
   background-color: var(--background);
+  /* border: 1px solid white; */
   animation: unhideMotion 30s ease-in-out infinite;
 }
 #hide div {
@@ -824,7 +825,7 @@ input[type="submit"] {
     margin: 1rem 0;
   }
   #relativeH2 {
-    margin-left: 6.7rem;
+    margin: auto;
     text-align: left;
   }
   #homeWrapper {
@@ -939,6 +940,5 @@ input[type="submit"] {
     min-width: 25rem;
   }
 }
-
 
 /* ---Looking Good--- */
