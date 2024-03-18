@@ -35,7 +35,7 @@ function Home() {
     //create an anchor element
     const link = document.createElement("a");
     //set the href attribute of the new a element
-    link.href = "/Barakia Karuru Resume.pdf";
+    link.href = "/Portfolio/Barakia Karuru Resume.pdf";
     //set the download attribute to the desired filename:
     link.download = "Baraka Karuru Resume";
     //append the anchor element to the document body:
