@@ -1,0 +1,941 @@
+:root {
+  --background: rgb(31, 35, 45);
+  --foreground: rgb(0, 238, 255);
+  --lighter: rgb(49, 55, 67);
+}
+body {
+  background-color: var(--background);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#portfolio {
+  margin-left: 4rem;
+  transition: margin 1s ease-in-out;
+  transform: translateY(-6px);
+}
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(31, 35, 45);
+}
+#fixedHeader {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+#zIndex {
+  z-index: 1000;
+  padding-top: 1rem;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 4rem;
+  transition: width 1s ease-in-out, margin 1s ease-in-out;
+  padding-top: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navItem {
+  width: fit-content;
+  overflow: hidden;
+  height: fit-content;
+}
+.navItem hr {
+  margin: 7px 0 0 0;
+  width: 0%;
+  transform: translateX(-3px);
+  transition: width 0.3s ease-in-out;
+}
+
+.color {
+  color: var(--foreground);
+}
+.navclicked:hover hr {
+  width: 103%;
+}
+
+.navlink {
+  padding: 0 0 12px 0;
+}
+
+#closeOpen {
+  width: 2rem;
+  height: fit-content;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.eachBar {
+  height: 4px;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: white;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+#topBar {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+#middleBar {
+  opacity: 0;
+}
+#bottomBar {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* -------------------- Home Component ------------------------- */
+
+/* -----home text ---- */
+#homeWrapper {
+  /* border: 1px solid white; */
+  height: 100vh; /*Change this-- this is fixed value*/
+  display: flex;
+  animation: homeFade 2s ease-in-out;
+}
+@keyframes homeFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#myIntro {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#introText {
+  margin-top: 7rem;
+  width: 90%;
+  height: 50%;
+  /* border: 1px solid white; */
+  margin-left: 8rem;
+  transform: scale(1.15);
+  transition: width 1s ease-in-out, height 1s ease-in-out, margin 1s ease-in-out,
+    transform 1s ease-in-out;
+  animation: textContainerMotion 1.2s ease-out;
+}
+@keyframes textContainerMotion {
+  0% {
+    transform: translateY(-60px) scale(1.15);
+  }
+  30% {
+    transform: translateY(-60px) scale(1.15);
+  }
+  100% {
+    transform: translateX(0) scale(1.15);
+  }
+}
+#introText h2 {
+  margin: 7px 0;
+}
+
+#introText p {
+  animation: pMotion 1s ease-in-out;
+}
+@keyframes pMotion {
+  0% {
+    transform: translateX(70px);
+  }
+  20% {
+    transform: translateX(70px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#textMotion {
+  color: var(--foreground);
+}
+#myName {
+  font-size: 3.3rem;
+  margin: 0;
+  animation: nameMotion 1s ease-in-out;
+  color: gold;
+  text-shadow: 0 0 5px gold;
+}
+@keyframes nameMotion {
+  0% {
+    transform: translateX(-50px);
+  }
+  20% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#relativeH2 {
+  position: relative;
+  /* border: 1px solid white; */
+  width: 23rem; /* at media */
+}
+#hide {
+  width: 16rem;
+  height: 99%;
+  position: absolute;
+  top: 0;
+  right: 0; /* at media */
+  display: flex;
+  align-items: center;
+  background-color: var(--background);
+  animation: unhideMotion 30s ease-in-out infinite;
+}
+#hide div {
+  height: 70%;
+  width: 0.2rem;
+  border: 1px solid var(--foreground);
+  background-color: var(--foreground);
+  animation: blinker 10s ease-in-out infinite;
+}
+@keyframes unhideMotion {
+  0% {
+    width: 16.2rem;
+  }
+  8% {
+    width: 1.5rem;
+  }
+  25% {
+    width: 1.5rem;
+  }
+  33.3% {
+    width: 16.2rem;
+  }
+  41% {
+    width: 3.9rem;
+  }
+  50% {
+    width: 3.9rem;
+  }
+  66.6% {
+    width: 16.2rem;
+  }
+  74% {
+    width: 4rem;
+  }
+  82% {
+    width: 4rem;
+  }
+  100% {
+    width: 16.2rem;
+  }
+}
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 0;
+  }
+  34% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+}
+
+#socialMedia {
+  margin-top: 20px;
+}
+.social {
+  margin: 0 7px;
+  background: none;
+  border: 2px solid var(--foreground);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.social:hover {
+  transform: translateY(-5px);
+}
+#linkedin {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--foreground);
+}
+#x {
+  color: var(--foreground);
+}
+#ig {
+  color: var(--foreground);
+  font-size: 15px;
+}
+.github {
+  transform: scale(1.7);
+  margin-top: 2px;
+  color: var(--background);
+  background-color: var(--foreground);
+}
+.hideGithub {
+  width: 65%;
+  height: 65%;
+  margin-left: 4.5px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.button {
+  border: none;
+  margin: 20px 7px;
+  padding: 7px 15px;
+  border-radius: 15px;
+  background-color: var(--foreground);
+  box-shadow: 0 0 7px var(--foreground);
+  transition: box-shadow 1s ease-in-out;
+  transform: scale(1.01);
+}
+.button:hover {
+  box-shadow: 0 0 0px;
+  cursor: pointer;
+}
+/* -----home image---- */
+#baraka {
+  position: absolute;
+  width: 100%;
+  transform: scale(1.1) rotate(6deg);
+  bottom: 50px;
+  right: -39px;
+  z-index: 1000;
+  background: none;
+  filter: brightness(0.9) contrast(2);
+}
+#karuru {
+  position: absolute;
+  width: 100%;
+  transform: scale(1.1) rotate(-6deg) scaleX(-1);
+  bottom: 44px;
+  right: 40px;
+  z-index: 1000;
+  background: none;
+  filter: brightness(0.9) contrast(2);
+}
+#myImage {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 1s ease-in-out;
+}
+#image {
+  /* border: 1px solid lime; */
+  min-height: 25rem;
+  min-width: 25rem;
+  margin-top: 2rem;
+  /* border: 1px solid white; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstImageAnimation {
+  transform: translateY(100px);
+  animation: firstImageAnimation 1.2s ease-in-out forwards;
+}
+@keyframes firstImageAnimation {
+  0% {
+    transform: translateY(120px);
+  }
+  30% {
+    transform: translateY(120px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.secondImageAnimation {
+  animation: second 5s infinite ease-in-out;
+}
+@keyframes second {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.octagon {
+  width: 80%;
+  height: 12.7rem;
+  border: 1px solid var(--foreground);
+  position: absolute;
+  border-radius: 1.5rem;
+  background-color: var(--foreground);
+}
+.tilted {
+  transform: rotate(60deg);
+  box-shadow: 7px 0 10px var(--foreground);
+}
+.tiltedPlus {
+  transform: rotate(120deg);
+  box-shadow: 7px 0 10px var(--foreground);
+}
+
+/*----- About Me ------*/
+
+#aboutWrapper {
+  background-color: var(--lighter);
+  height: fit-content;
+}
+#aboutWrapper #homeWrapper {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+#aboutWrapper #homeWrapper #introText {
+  margin-left: 1rem;
+  border-bottom: 1px solid white;
+  transform: scale(1);
+  height: 20rem;
+  transition: height 1s ease-in-out;
+  animation: none;
+}
+#aboutWrapper #homeWrapper #myIntro {
+  width: 70%;
+  /* border: 1px solid yellow; */
+  justify-content: flex-start;
+}
+#aboutWrapper #homeWrapper #myImage {
+  width: 30%;
+  padding-left: 5rem;
+}
+#aboutWrapper #homeWrapper .octagon {
+  background: none;
+  border: 11px solid var(--foreground);
+  box-shadow: none;
+  border-top: none;
+  border-bottom: none;
+  height: 13.5rem;
+}
+#aboutWrapper #homeWrapper #myName {
+  text-shadow: none;
+  font-size: 3.5rem;
+  color: white;
+}
+#aboutWrapper #introText h2 {
+  font-size: 1.9rem;
+}
+#aboutWrapper #introText p {
+  line-height: 23px;
+  font-size: 1rem;
+}
+#moreDetails {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+#aboutWrapper button {
+  transform: scale(1.2);
+  margin-left: 1rem;
+}
+
+/*-------- Skills tab ---------*/
+#skillsWrapper {
+  height: 100vh;
+  position: relative;
+}
+#skillsWrapper h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+#mySkillsContainer {
+  /* border: 3px solid lime; */
+  padding: 1rem 0;
+  mask: linear-gradient(
+    90deg,
+    transparent 1%,
+    white 10%,
+    white 90%,
+    transparent
+  );
+}
+
+#skillsMotion {
+  display: flex;
+  gap: 4rem;
+  width: fit-content;
+  /* border: 1px solid white; */
+  animation: skillMotion 100s linear infinite;
+}
+@keyframes skillMotion {
+  to {
+    transform: translate(calc(-50% - 2rem));
+  }
+}
+#skillsMotion:hover {
+  animation-play-state: paused;
+}
+.skillContainer {
+  /* border: 1px solid white; */
+  width: 22rem;
+  height: 24rem;
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--lighter);
+  transition: width 1s ease-in-out, height 1s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+.skillContainer:hover {
+  border: 2px solid var(--foreground);
+  transform: scale(1.04);
+}
+.skillImage {
+  /* border: 1px solid white; */
+  text-align: center;
+  height: 20%;
+  margin-top: 15px;
+}
+.reactImage {
+  width: 20%;
+  margin-top: 7px;
+}
+#javaScriptBorder {
+  width: 17%;
+  height: 80%;
+  border: 2px solid var(--foreground);
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+#javaScriptText {
+  font-size: xx-large;
+  margin-right: 5px;
+}
+.icon {
+  font-size: 3rem;
+  margin-top: 15px;
+}
+.skillContainer h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+.skillContainer p {
+  line-height: 1.5rem;
+}
+.readMoreSkill,
+.closeExtraDetails {
+  font-size: large;
+  border-radius: 20px;
+}
+
+/*Read More Container*/
+#moreSkillContainer {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  z-index: 1000;
+  text-align: center;
+  display: none;
+  overflow-y: scroll;
+}
+#moreSkillText {
+  font-size: 1.6rem;
+  text-align: center;
+  transition: font-size 1s ease-in-out;
+}
+#moreSkillHead {
+  font-size: 3rem;
+  color: var(--foreground);
+  transition: font-size 1s ease-in-out;
+}
+
+/*------PORTFOLIO.JSX------*/
+#portfolioWrapper {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 1rem;
+  background-color: var(--lighter);
+  border-top: 1px solid var(--lighter);
+}
+
+#latestProject h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+#myProjectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  width: 21.7rem;
+  height: 13rem;
+  border-radius: 10px;
+  background-color: black;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+#drumImage {
+  width: 100%;
+}
+#todolistImage {
+  height: 100%;
+}
+#markdownImage {
+  height: 100%;
+}
+#dragonImage {
+  height: 100%;
+}
+#palindromeImage {
+  width: 100%;
+}
+.project:hover .hoverDetails {
+  transform: translateY(0);
+  cursor: pointer;
+}
+.project .hoverDetails {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 1rem;
+  background: linear-gradient(to bottom, transparent, rgb(0, 190, 204) 50%);
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.goToProject {
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+/*------CONTACT.JSX------*/
+#contactWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+}
+#contactWrapper h2 {
+  font-size: 3.5rem;
+}
+#formFlexContainer {
+  width: 42rem;
+  /* border: 1px solid lime; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: auto;
+  justify-content: center;
+}
+.input {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--lighter);
+  color: white;
+  transition: width 1s ease-in-out;
+}
+#message {
+  width: 41rem;
+  height: 15rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: var(--lighter);
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--foreground);
+}
+#message:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--foreground);
+}
+input[type="submit"] {
+  transform: scale(1.1);
+}
+#footer {
+  width: 100vw;
+  height: 5rem;
+  background-color: var(--lighter);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 40%;
+  align-items: center;
+  transition: gap 1s ease-in-out;
+}
+#copyrightText {
+  margin-left: 4rem;
+  /* border: 1px solid white; */
+  min-width: 30rem;
+  transition: margin 1s ease-in-out;
+}
+#topIcon {
+  transition: transform 0.3s ease-in-out;
+}
+#backToTop button:hover #topIcon {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+#form {
+  /* border: 1px solid white; */
+  padding-bottom: 7rem;
+}
+
+/*------Smaller Screens------*/
+@media screen and (width <= 1100px) {
+  #introText {
+    width: 100%;
+    transform: scale(1.15);
+    margin-left: 3rem;
+  }
+  #myIntro {
+    width: 60%;
+  }
+  #navigation {
+    margin-right: 0;
+    width: 65%;
+  }
+  #aboutWrapper #homeWrapper #myImage {
+    padding-left: 0;
+    margin-top: 5rem;
+  }
+  #aboutWrapper #homeWrapper #introText {
+    border-bottom: none;
+    height: fit-content;
+    padding-bottom: 5rem; /* -----check----- */
+  }
+  #aboutWrapper #homeWrapper {
+    flex-direction: column-reverse;
+    /* border: 2px solid white; */
+    height: fit-content;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /*Portfolio.jsx*/
+  .project {
+    width: 19rem;
+    height: 11.4rem;
+  }
+  .hoverDetails h2 {
+    margin: 0;
+  }
+  /*Contact.jsx*/
+  #footer {
+    gap: 5%;
+  }
+}
+
+@media screen and (width <= 650px) {
+  #portfolio {
+    margin-left: 1rem;
+    transform: translateY(0.5px);
+  }
+  #closeOpen {
+    display: block;
+  }
+  #zIndex {
+    width: 100%;
+    background-color: var(--background);
+    padding-top: 0.4rem;
+  }
+  #navigation {
+    position: absolute;
+    transition: top 1s ease-in-out;
+    flex-direction: column;
+    right: 0;
+    top: -16rem;
+    height: fit-content;
+    justify-content: flex-start;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--background);
+    box-shadow: 0 0 5px white;
+  }
+  .navItem {
+    margin: 1rem 0;
+  }
+  #relativeH2 {
+    margin-left: 6.7rem;
+    text-align: left;
+  }
+  #homeWrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+  }
+  #myIntro {
+    width: 100%;
+    /* border: 1px solid lime; */
+  }
+  #introText {
+    height: fit-content;
+    /* border: 1px solid blue; */
+    margin-left: 0;
+    transform: scale(1.03);
+    margin-top: 2rem;
+    text-align: center;
+    animation: smallDeviceMotionText 1.2s ease-in-out;
+  }
+  @keyframes smallDeviceMotionText {
+    0% {
+      transform: translateY(-60px) scale(1);
+    }
+    30% {
+      transform: translateY(-60px);
+    }
+    100% {
+      transform: translateX(0) scale(1.07);
+    }
+  }
+  #myImage {
+    margin-top: 5rem;
+  }
+  #image {
+    min-width: 12rem;
+    min-height: 12rem;
+  }
+  .octagon {
+    width: 11.5rem;
+    height: 64%;
+  }
+
+  /*-----About-----*/
+  #aboutWrapper #homeWrapper #myImage .octagon {
+    width: 11.5rem;
+    height: 72%;
+  }
+  #aboutWrapper #homeWrapper {
+    height: fit-content;
+  }
+
+  #baraka {
+    position: absolute;
+    width: 100%;
+    transform: scale(1.4) rotate(8deg);
+    bottom: 40px;
+    right: -30px;
+    z-index: 1000;
+    background: none;
+    filter: brightness(0.9) contrast(2);
+  }
+  #karuru {
+    position: absolute;
+    width: 100%;
+    transform: scale(1.3) rotate(-6deg) scaleX(-1);
+    bottom: 27px;
+    right: 25px;
+    z-index: 1000;
+    background: none;
+    filter: brightness(0.9) contrast(2);
+  }
+  #aboutWrapper #homeWrapper #myIntro {
+    justify-content: flex-start;
+  }
+
+  /*-----Skills-----*/
+  .skillContainer {
+    width: 19.5rem;
+    height: 25rem;
+  }
+  .skillImage {
+    margin-top: 0;
+  }
+  #skillsMotion {
+    gap: 1rem;
+  }
+  #moreSkillHead {
+    font-size: 2.5rem;
+  }
+  #moreSkillText {
+    font-size: 1.4rem;
+  }
+
+  /*Portfolio.jsx*/
+  /* .project .hoverDetails {
+    transform: translateY(0);                 --SET THIS IF ONE CANT HOVER ON PHONE!.
+  } */
+
+  /*Contact.jsx*/
+  #formFlexContainer {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  #footer {
+    gap: 10px;
+  }
+  #copyrightText {
+    margin-left: 0;
+    min-width: 25rem;
+  }
+}
