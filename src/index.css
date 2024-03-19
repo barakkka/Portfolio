@@ -897,7 +897,7 @@ input[type="submit"] {
     right: -30px;
     z-index: 1000;
     background: none;
-    filter: brightness(0.9) contrast(2);
+    border: 1px solid white;
   }
   #karuru {
     position: absolute;
@@ -907,7 +907,6 @@ input[type="submit"] {
     right: 25px;
     z-index: 1000;
     background: none;
-    filter: brightness(0.9) contrast(2);
   }
   #aboutWrapper #homeWrapper #myIntro {
     justify-content: flex-start;
