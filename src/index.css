@@ -909,6 +909,11 @@ input[type="submit"] {
   }
   #aboutWrapper #homeWrapper #myIntro {
     justify-content: flex-start;
+    height: fit-content;
+    border: 1px solid white;
+  }
+  #aboutWrapper #homeWrapper #myName {
+    font-size: 3.1rem;
   }
 
   /*-----Skills-----*/
@@ -928,10 +933,16 @@ input[type="submit"] {
   #moreSkillText {
     font-size: 1.4rem;
   }
+  #skillsWrapper h2 {
+    font-size: 3.1rem;
+  }
 
   /*Portfolio.jsx*/
   .project .hoverDetails {
-    transform: translateY(0);                 /* --SET THIS IF ONE CANT HOVER ON PHONE!. */
+    transform: translateY(0); /* --SET THIS IF ONE CANT HOVER ON PHONE!. */
+  }
+  #latestProject h2 {
+    font-size: 3.1rem;
   }
 
   /*Contact.jsx*/
@@ -949,6 +960,9 @@ input[type="submit"] {
     margin-left: 5px;
     font-size: 14px;
     min-width: 60%;
+  }
+  #contactWrapper h2 {
+    font-size: 3.1rem;
   }
 }
 
