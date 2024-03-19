@@ -351,22 +351,22 @@ a {
 #baraka {
   position: absolute;
   width: 100%;
-  transform: scale(1.1) rotate(6deg);
-  bottom: 50px;
-  right: -39px;
+  transform: rotate(2.5deg);
+  bottom: -127px;
+  right: 18px;
   z-index: 1000;
   background: none;
-  filter: brightness(0.9) contrast(2);
+  filter: contrast(1.2);
 }
 #karuru {
   position: absolute;
   width: 100%;
-  transform: scale(1.1) rotate(-6deg) scaleX(-1);
-  bottom: 44px;
-  right: 40px;
+  transform: rotate(-4deg) scaleX(-1);
+  bottom: -130px;
+  right: -20px;
   z-index: 1000;
   background: none;
-  filter: brightness(0.9) contrast(2);
+  filter: contrast(1.2);
 }
 #myImage {
   width: 50%;
@@ -892,19 +892,18 @@ input[type="submit"] {
   #baraka {
     position: absolute;
     width: 100%;
-    transform: scale(1.4) rotate(8deg);
-    bottom: 40px;
-    right: -30px;
+    transform: scale(1.2) rotate(2deg);
+    bottom: -67px;
+    right: 10px;
     z-index: 1000;
     background: none;
-    border: 1px solid white;
   }
   #karuru {
     position: absolute;
     width: 100%;
-    transform: scale(1.3) rotate(-6deg) scaleX(-1);
-    bottom: 27px;
-    right: 25px;
+    transform: scale(1.2) rotate(-4deg) scaleX(-1);
+    bottom: -70px;
+    right: -13px;
     z-index: 1000;
     background: none;
   }
