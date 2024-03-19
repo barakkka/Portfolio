@@ -10,7 +10,7 @@ function About() {
       if (display === "none") {
         setDisplay("block");
         if (window.innerWidth < 1300) {
-          expandHeight.style.height = "45rem";
+          expandHeight.style.height = "50rem";
           console.log("less than 1300px");
         } else {
           expandHeight.style.height = "31rem";
