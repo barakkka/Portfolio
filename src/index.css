@@ -8,7 +8,6 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  overflow-x: hidden;
 }
 
 #portfolio {
@@ -27,6 +26,7 @@ body {
   z-index: 1000;
   width: 100%;
   top: 0;
+  /* border: 1px solid lime; */
 }
 #zIndex {
   z-index: 1000;
@@ -510,6 +510,7 @@ a {
     white 90%,
     transparent
   );
+  overflow: hidden;
 }
 
 #skillsMotion {
@@ -824,6 +825,11 @@ input[type="submit"] {
   .navItem {
     margin: 1rem 0;
   }
+
+  /*-----Home.jsx-----*/
+  #myName {
+    font-size: 2.7rem;
+  }
   #relativeH2 {
     margin: auto;
     text-align: left;
@@ -937,11 +943,13 @@ input[type="submit"] {
     width: 100%;
   }
   #footer {
-    gap: 10px;
+    min-width: 100%;
+    gap: 1rem;
   }
   #copyrightText {
-    margin-left: 0;
-    min-width: 25rem;
+    margin-left: 5px;
+    font-size: 14px;
+    min-width: 60%;
   }
 }
 
