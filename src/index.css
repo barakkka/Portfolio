@@ -930,9 +930,9 @@ input[type="submit"] {
   }
 
   /*Portfolio.jsx*/
-  /* .project .hoverDetails {
-    transform: translateY(0);                 --SET THIS IF ONE CANT HOVER ON PHONE!.
-  } */
+  .project .hoverDetails {
+    transform: translateY(0);                 /* --SET THIS IF ONE CANT HOVER ON PHONE!. */
+  }
 
   /*Contact.jsx*/
   #formFlexContainer {
