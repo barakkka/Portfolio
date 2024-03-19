@@ -751,6 +751,10 @@ input[type="submit"] {
   /* border: 1px solid white; */
   padding-bottom: 7rem;
 }
+#maintenance {
+  text-decoration: underline;
+  color: var(--foreground);
+}
 
 /*------Smaller Screens------*/
 @media screen and (width <= 1100px) {

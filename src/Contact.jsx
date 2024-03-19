@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { animateScroll } from "react-scroll";
@@ -8,12 +8,31 @@ function Contact() {
     animateScroll.scrollToTop();
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(
+      "Form Under Maintenance. Kindly reach me through linkedIn. find the link above the form or at the home page."
+    );
+  };
+
   return (
     <div id="contactWrapper">
       <div>
         <h2>
           Contact <span className="color">Me</span>
         </h2>
+        <hr />
+        <p>
+          Form under Maintenance.. Kindly message me through
+          <a
+            href="https://www.linkedin.com/in/baraka-karuru-b59b12251/"
+            target="blank"
+            id="maintenance"
+          >
+            my linkedIn account
+          </a>
+        </p>
+        <hr />
       </div>
       <div>
         <form action="#" id="form">
@@ -57,8 +76,10 @@ function Contact() {
           <input
             type="submit"
             className="button"
+            id="submit"
             name="submit"
             value={"Send Message"}
+            onClick={handleSubmit}
           />
         </form>
       </div>
