@@ -435,7 +435,6 @@ a {
 }
 
 /*----- About Me ------*/
-
 #aboutWrapper {
   background-color: var(--lighter);
   height: fit-content;
@@ -443,15 +442,16 @@ a {
 #aboutWrapper #homeWrapper {
   flex-direction: row-reverse;
   justify-content: space-around;
-  min-height: 100vh;
+  height: 100vh;
 }
 #aboutWrapper #homeWrapper #introText {
   margin-left: 1rem;
   border-bottom: 1px solid white;
   transform: scale(1);
-  height: 20rem;
+  min-height: 20rem;
   transition: height 1s ease-in-out;
   animation: none;
+  /* border: 1px solid blue; */
 }
 #aboutWrapper #homeWrapper #myIntro {
   width: 70%;
@@ -910,10 +910,14 @@ input[type="submit"] {
   #aboutWrapper #homeWrapper #myIntro {
     justify-content: flex-start;
     height: fit-content;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    width: 90%;
   }
   #aboutWrapper #homeWrapper #myName {
     font-size: 3.1rem;
+  }
+  #aboutWrapper #homeWrapper #introText {
+    margin-right: 1rem;
   }
 
   /*-----Skills-----*/
