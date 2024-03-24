@@ -801,7 +801,7 @@ input[type="submit"] {
   }
 }
 
-@media screen and (width <= 650px) {
+@media screen and (width <= 670px) {
   #portfolio {
     margin-left: 1rem;
     transform: translateY(0.5px);
