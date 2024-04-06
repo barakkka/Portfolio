@@ -57,9 +57,9 @@ function Home() {
     //I am a what.. styling... switching between different skills
     const myRoles = document.getElementById("textMotion");
     const myRolesArr = [
+      "Full-Stack Web Engineer",
       "Frontend Developer",
       "React Developer",
-      "UI / UX Designer",
     ];
     let i = 0;
     const switchRoles = () => {

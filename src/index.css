@@ -164,6 +164,7 @@ a {
 }
 #textMotion {
   color: var(--foreground);
+  /* border: 1px solid lime; */
 }
 #myName {
   font-size: 3.3rem;
@@ -186,7 +187,7 @@ a {
 #relativeH2 {
   position: relative;
   /* border: 1px solid white; */
-  width: 23rem; /* at media */
+  width: 26.5rem; /* at media */
 }
 #hide {
   width: 16rem;
@@ -209,7 +210,7 @@ a {
 }
 @keyframes unhideMotion {
   0% {
-    width: 16.2rem;
+    width: 19.4rem;
   }
   8% {
     width: 1.5rem;
@@ -218,25 +219,25 @@ a {
     width: 1.5rem;
   }
   33.3% {
-    width: 16.2rem;
+    width: 19.4rem;
   }
   41% {
-    width: 3.9rem;
+    width: 5rem;
   }
   50% {
-    width: 3.9rem;
+    width: 5rem;
   }
   66.6% {
-    width: 16.2rem;
+    width: 19.4rem;
   }
   74% {
-    width: 4rem;
+    width: 7.3rem;
   }
   82% {
-    width: 4rem;
+    width: 7.3rem;
   }
   100% {
-    width: 16.2rem;
+    width: 19.4rem;
   }
 }
 @keyframes blinker {
