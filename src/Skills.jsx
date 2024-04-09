@@ -61,6 +61,30 @@ function Skills() {
       
       Git's role in modern software development is undeniable, and my expertise in utilizing Git allows me to work efficiently and confidently in both individual and team settings, ensuring the integrity and stability of codebases while fostering collaboration and innovation.`,
     },
+    {
+      name: "NODE",
+      content: `Through developing a full-stack web application, I gained hands-on experience with Node.js, Express, and MySQL, discovering how they seamlessly integrate with the client-side technologies.
+
+      With Node.js, I learned to create robust server-side applications, handle HTTP requests, and build RESTful APIs. Utilizing Express.js, I mastered routing, middleware, and request handling, allowing me to create scalable and efficient server-side logic.
+      
+      Furthermore, my exploration of MySQL deepened my understanding of databases and data management. I became proficient in querying, updating, and deleting data from the database, as well as optimizing database performance for better scalability and efficiency.
+      
+      The synergy between Node.js, Express, and MySQL enabled me to build dynamic and interactive web applications, where data flows seamlessly between the client and server. From handling API endpoints to parsing JSON data and implementing CRUD operations, I gained invaluable experience in working with a full tech stack.
+      
+      As I continue to explore the possibilities of Node.js and its ecosystem, I look forward to leveraging its power and versatility to create innovative and scalable web solutions.`
+    },
+    {
+      name: "EXPRESS",
+      content: `In my journey of mastering Node.js, Express.js emerged as a pivotal tool that streamlined the development of server-side applications. With Express.js, I was able to build upon my Node.js knowledge and accelerate the creation of robust and efficient web servers.
+
+      Express.js, being a minimalist web framework for Node.js, offered me a lightweight yet powerful platform for handling HTTP requests, routing, and middleware integration. Its simplicity and flexibility allowed me to focus on implementing business logic and building RESTful APIs without the overhead of boilerplate code.`
+    },
+    {
+      name: "MySQL",
+      content: `MySQL provided me with tools for data security and user access control, allowing me to implement robust authentication and authorization mechanisms to protect sensitive information and ensure data privacy.
+
+      By integrating MySQL into my full-stack web development project, I gained valuable experience in building data-driven applications, where data is efficiently stored, retrieved, and manipulated to meet the needs of users and businesses. MySQL's reliability, scalability, and performance made it a cornerstone of my development toolkit, enabling me to create impactful and resilient web solutions.`
+    }
   ];
 
   useEffect(() => {
@@ -220,7 +244,39 @@ function Skills() {
             </p>
             <button className="button readMoreSkill GIT ">Read More</button>
           </div>
-
+          {/* -----Skill: NODE----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+              <img src="/Portfolio/images/nodejs-logo-vector.svg" alt="node.js logo" className="skillLogo"/>
+            </div>
+            <h3>NODE.JS</h3>
+            <p>
+            Through developing a full-stack web application, I gained hands-on experience with Node.js, Express, and MySQL, discovering how they seamlessly integrate with the client-side technologies.
+            </p>
+            <button className="button readMoreSkill NODE">Read More</button>
+          </div>
+          {/* -----Skill: EXPRESS----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+              <FontAwesomeIcon icon={faGitSquare} className="color icon" />
+            </div>
+            <h3>EXPRESS.JS</h3>
+            <p>
+              In my journey of mastering Node.js, Express.js emerged as a pivotal tool that streamlined the development of server-side applications. With Express.js, I was able to build upon my Node.js knowledge and accelerate the creation of robust and efficient web servers.
+            </p>
+            <button className="button readMoreSkill EXPRESS">Read More</button>
+          </div>
+          {/* -----Skill: MYSQL----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+            <img src="/Portfolio/images/mysql-logo-vector-1.svg" alt="mysql logo" className="skillLogo mysql"/>
+            </div>
+            <h3>MySQL</h3>
+            <p>
+              MySQL provided me with tools for data security and user access control, allowing me to implement robust authentication and authorization mechanisms to protect sensitive information and ensure data privacy.
+            </p>
+            <button className="button readMoreSkill MySQL">Read More</button>
+          </div>
           {/* ------------------------DUPLICATE SKILLS SET------------------------- */}
 
           {/* -----Skill: HTML----- */}
@@ -298,6 +354,40 @@ function Skills() {
             </p>
             <button className="button readMoreSkill GIT ">Read More</button>
           </div>
+          {/* -----Skill: NODE----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+              <img src="/Portfolio/images/nodejs-logo-vector.svg" alt="node.js logo" className="skillLogo"/>
+            </div>
+            <h3>NODE.JS</h3>
+            <p>
+            Through developing a full-stack web application, I gained hands-on experience with Node.js, Express, and MySQL, discovering how they seamlessly integrate with the client-side technologies.
+            </p>
+            <button className="button readMoreSkill NODE">Read More</button>
+          </div>
+          {/* -----Skill: EXPRESS----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+              <FontAwesomeIcon icon={faGitSquare} className="color icon" />
+            </div>
+            <h3>EXPRESS.JS</h3>
+            <p>
+              In my journey of mastering Node.js, Express.js emerged as a pivotal tool that streamlined the development of server-side applications. With Express.js, I was able to build upon my Node.js knowledge and accelerate the creation of robust and efficient web servers.
+            </p>
+            <button className="button readMoreSkill EXPRESS">Read More</button>
+          </div>
+          {/* -----Skill: MYSQL----- */}
+          <div className="skillContainer">
+            <div className="skillImage">
+            <img src="/Portfolio/images/mysql-logo-vector-1.svg" alt="mysql logo" className="skillLogo mysql"/>
+            </div>
+            <h3>MySQL</h3>
+            <p>
+              MySQL provided me with tools for data security and user access control, allowing me to implement robust authentication and authorization mechanisms to protect sensitive information and ensure data privacy.
+            </p>
+            <button className="button readMoreSkill MySQL">Read More</button>
+          </div>
+          {/* --end of skills-- */}
         </div>
       </div>
     </div>

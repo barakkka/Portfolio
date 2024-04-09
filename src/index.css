@@ -554,6 +554,13 @@ a {
   width: 20%;
   margin-top: 7px;
 }
+.skillLogo{
+  width: 50%;
+}
+.mysql{
+  margin-top: -3rem;
+  transform: scale(0.8);
+}
 #javaScriptBorder {
   width: 17%;
   height: 80%;
@@ -944,6 +951,10 @@ input[type="submit"] {
   }
   #skillsWrapper h2 {
     font-size: 3.1rem;
+  }
+  .mysql{
+    margin-top: -1.5rem;
+    transform: scale(0.7);
   }
 
   /*Portfolio.jsx*/
