@@ -538,8 +538,7 @@ a {
   text-align: center;
   background-color: var(--lighter);
   border: 2px solid var(--lighter);
-  transition: width 1s ease-in-out, height 1s ease-in-out,
-    transform 0.3s ease-in-out;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 .skillContainer:hover {
   border: 2px solid var(--foreground);

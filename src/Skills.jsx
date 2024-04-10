@@ -104,14 +104,12 @@ function Skills() {
     const closeExtraDetails = document.querySelector(".closeExtraDetails");
     const skillsMotion = document.getElementById("skillsMotion");
     const readMoreSkillArr = Array.from(readMoreSkill);
+    const skillContainer = document.querySelectorAll(".skillContainer");
 
     const setRunning = () => {
       moreSkillContainer.style.display = "none";
       skillsMotion.style.animationPlayState = "running";
     };
-    // const setPaused = () => {
-    //   skillsMotion.style.animationPlayState = "paused";
-    // };
 
     readMoreSkillArr.map((button) => {
       button.addEventListener("click", function () {
@@ -136,7 +134,6 @@ function Skills() {
         closeExtraDetails.addEventListener("click", function () {
           setScrolling(true);
           setRunning();
-          // skillsMotion.addEventListener("mouseover", setPaused);
           skillsMotion.addEventListener("mouseleave", setRunning);
         });
       });
