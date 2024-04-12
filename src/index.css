@@ -661,7 +661,7 @@ a {
 #dragonImage {
   height: 100%;
 }
-#palindromeImage {
+#musicImage {
   width: 100%;
 }
 .project:hover .hoverDetails {
@@ -675,7 +675,7 @@ a {
   border-radius: 10px;
   text-align: center;
   padding-top: 1rem;
-  background: linear-gradient(to bottom, transparent, rgb(0, 190, 204) 50%);
+  background: linear-gradient(to bottom, transparent, rgb(0, 190, 204) 90%);
   transform: translateY(100%);
   transition: transform 0.3s ease-in-out;
 }

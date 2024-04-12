@@ -34,6 +34,28 @@ function Portfolio() {
         {/* ------------- PROJECT 2 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
+            <h2>Music Player App</h2>
+            <p>
+              Algorithmic thinking. Nested Data structures. 
+            </p>
+            <a
+              href="https://barakkka.github.io/Music-Player-App/"
+              target="_blank"
+            >
+              <button className="goToProject">
+                <FontAwesomeIcon icon={faExternalLink} />
+              </button>
+            </a>
+          </div>
+          <img
+            src="/Portfolio/images/HD-wallpaper-music-neon-icon.jpg"
+            alt="Music Logo"
+            id="musicImage"
+          />
+        </div>
+        {/* ------------- PROJECT 3 ------------------ */}
+        <div className="project">
+          <div className="hoverDetails">
             <h2>Drum Machine</h2>
             <p>
               Creating Interactive user interfaces, passing data between
@@ -47,7 +69,7 @@ function Portfolio() {
           </div>
           <img src="/Portfolio/images/drum.jpg" alt="drums" id="drumImage" />
         </div>
-        {/* ------------- PROJECT 3 ------------------ */}
+        {/* ------------- PROJECT 4 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Todo List App</h2>
@@ -67,7 +89,7 @@ function Portfolio() {
             id="todolistImage"
           />
         </div>
-        {/* ------------- PROJECT 4 ------------------ */}
+        {/* ------------- PROJECT 5 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Markdown Converter</h2>
@@ -90,7 +112,7 @@ function Portfolio() {
             id="markdownImage"
           />
         </div>
-        {/* ------------- PROJECT 5 ------------------ */}
+        {/* ------------- PROJECT 6 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Defeat The Dragon Game</h2>
@@ -111,29 +133,6 @@ function Portfolio() {
             src="/Portfolio/images/dragon.jpg"
             alt="dragon standing on mountain"
             id="dragonImage"
-          />
-        </div>
-        {/* ------------- PROJECT 6 ------------------ */}
-        <div className="project">
-          <div className="hoverDetails">
-            <h2>Palindrome Game</h2>
-            <p>
-              Complex game logic, handling user input, immediate feedback based
-              on user performance.
-            </p>
-            <a
-              href="https://barakkka.github.io/palindrome-game/"
-              target="_blank"
-            >
-              <button className="goToProject">
-                <FontAwesomeIcon icon={faExternalLink} />
-              </button>
-            </a>
-          </div>
-          <img
-            src="/Portfolio/images/palindrome.jpg"
-            alt="palindrome spelt out"
-            id="palindromeImage"
           />
         </div>
       </div>
