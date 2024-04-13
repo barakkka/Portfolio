@@ -520,6 +520,7 @@ a {
   gap: 4rem;
   width: fit-content;
   /* border: 1px solid white; */
+  transition: animationDuration 3s ease-in-out;
   animation: skillMotion 100s linear infinite;
 }
 @keyframes skillMotion {
@@ -553,10 +554,10 @@ a {
   width: 20%;
   margin-top: 7px;
 }
-.skillLogo{
+.skillLogo {
   width: 50%;
 }
-.mysql{
+.mysql {
   margin-top: -3rem;
   transform: scale(0.8);
 }
@@ -592,7 +593,7 @@ a {
   font-size: large;
   border-radius: 20px;
 }
-.hrColor{
+.hrColor {
   border-color: var(--foreground);
 }
 
@@ -618,6 +619,16 @@ a {
   font-size: 3rem;
   color: var(--foreground);
   transition: font-size 1s ease-in-out;
+}
+#speedContainer {
+  text-align: center;
+}
+.speed {
+  background-color: var(--foreground);
+  cursor: pointer;
+  margin-right: 10px;
+  border-color: var(--foreground);
+  border-radius: 5px;
 }
 
 /*------PORTFOLIO.JSX------*/
@@ -954,7 +965,7 @@ input[type="submit"] {
   #skillsWrapper h2 {
     font-size: 3.1rem;
   }
-  .mysql{
+  .mysql {
     margin-top: -1.5rem;
     transform: scale(0.7);
   }

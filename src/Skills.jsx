@@ -105,6 +105,52 @@ function Skills() {
     const skillsMotion = document.getElementById("skillsMotion");
     const readMoreSkillArr = Array.from(readMoreSkill);
     const skillContainer = document.querySelectorAll(".skillContainer");
+    const faster = document.getElementById("faster");
+    const slower = document.getElementById("slower");
+    const reset = document.getElementById("reset");
+
+    const speedArray = [
+      `140s`,
+      `130s`,
+      `120s`,
+      `110s`,
+      `100s`,
+      `90s`,
+      `80s`,
+      `70s`,
+      `60s`,
+      `50s`,
+      `40s`,
+      `30s`,
+      `20s`,
+    ];
+    faster.addEventListener("click", function () {
+      let updated = false;
+      for (let i = 0; i < speedArray.length - 1; i++) {
+        let computedStyle = window.getComputedStyle(skillsMotion);
+        if (computedStyle.animationDuration === speedArray[i] && !updated) {
+          skillsMotion.style.animationDuration = speedArray[i + 1];
+          console.log(speedArray[i + 1]);
+          updated = true;
+          break;
+        }
+      }
+    });
+    slower.addEventListener("click", function () {
+      let updated = false;
+      for (let i = 1; i < speedArray.length; i++) {
+        let computedStyle = window.getComputedStyle(skillsMotion);
+        if (computedStyle.animationDuration === speedArray[i] && !updated) {
+          skillsMotion.style.animationDuration = speedArray[i - 1];
+          console.log(speedArray[i - 1]);
+          updated = true;
+          break;
+        }
+      }
+    });
+    reset.addEventListener("click", function () {
+      skillsMotion.style.animationDuration = `100s`;
+    });
 
     const setRunning = () => {
       moreSkillContainer.style.display = "none";
@@ -438,6 +484,17 @@ function Skills() {
           </div>
           {/* --end of skills-- */}
         </div>
+      </div>
+      <div id="speedContainer">
+        <button id="slower" className="speed">
+          &lt; slow down
+        </button>
+        <button id="reset" className="speed">
+          Reset
+        </button>
+        <button id="faster" className="speed">
+          speed up &gt;
+        </button>
       </div>
     </div>
   );
