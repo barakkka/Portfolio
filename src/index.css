@@ -745,7 +745,7 @@ input[type="submit"] {
   transform: scale(1.1);
 }
 #footer {
-  width: 100vw;
+  width: 100%;
   height: 5rem;
   background-color: var(--lighter);
   position: absolute;
@@ -993,6 +993,10 @@ input[type="submit"] {
     margin-left: 5px;
     font-size: 14px;
     min-width: 60%;
+  }
+  #contactWrapper{
+    width: 90%;
+    margin: auto;
   }
   #contactWrapper h2 {
     font-size: 3.1rem;
