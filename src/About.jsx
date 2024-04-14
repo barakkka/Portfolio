@@ -38,15 +38,14 @@ function About() {
             </h1>
             <h2>Frontend Developer!</h2>
             <p>
-              Hardworking, insightful and results-driven 4th year student
-              pursuing a degree in Business and Information Technology.
-              Technologically adept and solution focused employee equipped with
-              the necessary analytical skills required in prioritizing tasks,
-              identifying technical issues and providing timely solutions. I am
-              ready to utilize my expertise and passion to further the mission
-              of your company.
+              Hardworking, insightful and results-driven full-stack web
+              engineer, technologically adept and solution focused employee
+              equipped with the necessary analytical skills required in
+              prioritizing tasks, identifying technical issues and providing
+              timely solutions. I am ready to utilize my expertise and passion
+              to further the mission of your company
               <span id="moreDetails">
-                I have completed a total of 11 front-end web projects so far,
+                I have completed a total of 12 front-end web projects so far,
                 with 7 of them utilizing React, demonstrating proficiency in
                 modern web development technologies. Additionally, I performed
                 Website Development & Management at Zaridi School Ltd., where I
