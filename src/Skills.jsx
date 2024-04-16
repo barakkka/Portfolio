@@ -9,6 +9,7 @@ import reactLogo from "/react.svg";
 
 function Skills() {
   const [scrolling, setScrolling] = useState(true);
+  const [speedVisual, setSpeedVisual] = useState(3);
 
   const skillArr = [
     {
@@ -130,7 +131,12 @@ function Skills() {
         let computedStyle = window.getComputedStyle(skillsMotion);
         if (computedStyle.animationDuration === speedArray[i] && !updated) {
           skillsMotion.style.animationDuration = speedArray[i + 1];
-          console.log(speedArray[i + 1]);
+          console.log(
+            `Array Value: ${speedArray[i + 1]} Computed Style: ${
+              window.getComputedStyle(skillsMotion).animationDuration
+            }`
+          );
+          setSpeedVisual((prev) => prev + 0.5);
           updated = true;
           break;
         }
@@ -142,7 +148,12 @@ function Skills() {
         let computedStyle = window.getComputedStyle(skillsMotion);
         if (computedStyle.animationDuration === speedArray[i] && !updated) {
           skillsMotion.style.animationDuration = speedArray[i - 1];
-          console.log(speedArray[i - 1]);
+          console.log(
+            `Array Value: ${speedArray[i - 1]} Computed Style: ${
+              window.getComputedStyle(skillsMotion).animationDuration
+            }`
+          );
+          setSpeedVisual((prev) => prev - 0.5)
           updated = true;
           break;
         }
@@ -150,6 +161,7 @@ function Skills() {
     });
     reset.addEventListener("click", function () {
       skillsMotion.style.animationDuration = `100s`;
+      setSpeedVisual(3);
     });
 
     const setRunning = () => {
@@ -495,6 +507,15 @@ function Skills() {
         <button id="faster" className="speed">
           speed up &gt;
         </button>
+      </div>
+      <div id="speedVisualContainer">
+        <div className={speedVisual === 1 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 2 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 3 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 4 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 5 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 6 ? "visual active" : "visual"}></div>
+        <div className={speedVisual === 7 ? "visual active" : "visual"}></div>
       </div>
     </div>
   );

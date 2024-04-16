@@ -630,6 +630,23 @@ a {
   border-color: var(--foreground);
   border-radius: 5px;
 }
+#speedVisualContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
+.visual{
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--foreground);
+  border-radius: 50%;
+}
+.active{
+  background-color: var(--foreground);
+}
 
 /*------PORTFOLIO.JSX------*/
 #portfolioWrapper {
