@@ -989,6 +989,12 @@ input[type="submit"] {
   }
   #skillsMotion {
     gap: 1rem;
+    animation: skillMotionSmall 100s linear infinite;
+  }
+  @keyframes skillMotionSmall {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
   }
   #moreSkillHead {
     font-size: 2.5rem;
