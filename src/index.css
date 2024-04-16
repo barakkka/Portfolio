@@ -780,6 +780,7 @@ input[type="submit"] {
 }
 #buttonHide{
   overflow: hidden;
+  box-shadow: none;
 }
 #topIcon {
   transition: transform 0.3s ease-in-out;
