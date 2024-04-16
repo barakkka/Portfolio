@@ -164,7 +164,7 @@ a {
 }
 #textMotion {
   color: var(--foreground);
-  /* border: 1px solid lime; */
+  border: 1px solid lime;
 }
 #myName {
   font-size: 3.3rem;
@@ -186,8 +186,8 @@ a {
 }
 #relativeH2 {
   position: relative;
-  /* border: 1px solid white; */
-  width: 26.5rem; /* at media */
+  border: 1px solid white;
+  width: 32rem; /* at media */
 }
 #hide {
   width: 16rem;
@@ -198,7 +198,7 @@ a {
   display: flex;
   align-items: center;
   background-color: var(--background);
-  /* border: 1px solid white; */
+  border: 1px solid white;
   animation: unhideMotion 30s ease-in-out infinite;
 }
 #hide div {
@@ -210,34 +210,34 @@ a {
 }
 @keyframes unhideMotion {
   0% {
-    width: 19.4rem;
+    width: 78%;
   }
   8% {
-    width: 1.5rem;
+    width: 21%;
   }
   25% {
-    width: 1.5rem;
+    width: 21%;
   }
   33.3% {
-    width: 19.4rem;
+    width: 78%;
   }
   41% {
-    width: 5rem;
+    width: 32%;
   }
   50% {
-    width: 5rem;
+    width: 32%;
   }
   66.6% {
-    width: 19.4rem;
+    width: 78%;
   }
   74% {
-    width: 7.3rem;
+    width: 39%;
   }
   82% {
-    width: 7.3rem;
+    width: 39%;
   }
   100% {
-    width: 19.4rem;
+    width: 78%;
   }
 }
 @keyframes blinker {
@@ -858,7 +858,11 @@ input[type="submit"] {
   }
   #relativeH2 {
     margin: auto;
+    width: 24rem;
     text-align: left;
+  } 
+  #relativeH2 h2{
+    font-size: large;
   }
   #homeWrapper {
     flex-direction: column-reverse;
