@@ -112,17 +112,11 @@ function Skills() {
 
     const speedArray = [
       `140s`,
-      `130s`,
       `120s`,
-      `110s`,
       `100s`,
-      `90s`,
       `80s`,
-      `70s`,
       `60s`,
-      `50s`,
       `40s`,
-      `30s`,
       `20s`,
     ];
     faster.addEventListener("click", function () {
@@ -136,7 +130,7 @@ function Skills() {
               window.getComputedStyle(skillsMotion).animationDuration
             }`
           );
-          setSpeedVisual((prev) => prev + 0.5);
+          setSpeedVisual((prev) => prev + 1);
           updated = true;
           break;
         }
@@ -153,7 +147,7 @@ function Skills() {
               window.getComputedStyle(skillsMotion).animationDuration
             }`
           );
-          setSpeedVisual((prev) => prev - 0.5)
+          setSpeedVisual((prev) => prev - 1)
           updated = true;
           break;
         }
