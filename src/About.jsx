@@ -10,10 +10,10 @@ function About() {
       if (display === "none") {
         setDisplay("block");
         if (window.innerWidth < 1300) {
-          expandHeight.style.height = "50rem";
+          expandHeight.style.height = "35rem";
           console.log("less than 1300px");
         } else {
-          expandHeight.style.height = "31rem";
+          expandHeight.style.height = "27rem";
           console.log("more than 1300px");
         }
         moreDetails.style.display = "block";
@@ -47,12 +47,7 @@ function About() {
               <span id="moreDetails">
                 I have completed a total of 12 front-end web projects so far,
                 with 7 of them utilizing React, demonstrating proficiency in
-                modern web development technologies. Additionally, I performed
-                Website Development & Management at Zaridi School Ltd., where I
-                gained hands-on experience in designing, developing, and
-                maintaining websites to meet the organization's needs. This
-                experience has further honed my skills in website design,
-                development, and content management systems. I am passionate
+                modern web development technologies. I am passionate
                 about leveraging technology to drive innovation and solve
                 complex business challenges. As someone who is open to new
                 opportunities and eager to learn and grow professionally, I am
