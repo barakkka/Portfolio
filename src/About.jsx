@@ -10,10 +10,10 @@ function About() {
       if (display === "none") {
         setDisplay("block");
         if (window.innerWidth < 1300) {
-          expandHeight.style.height = "35rem";
+          expandHeight.style.height = "41rem";
           console.log("less than 1300px");
         } else {
-          expandHeight.style.height = "28rem";
+          expandHeight.style.height = "31rem";
           console.log("more than 1300px");
         }
         moreDetails.style.display = "block";
@@ -46,14 +46,13 @@ function About() {
               to further the mission of your company
               <span id="moreDetails">
                 <br />
-                I have completed a total of 12 front-end web projects so far,
-                with 7 of them utilizing React, demonstrating proficiency in
-                modern web development technologies. I am passionate
-                about leveraging technology to drive innovation and solve
+                I have completed a total of 12 projects so far,
+                with 7 of them utilizing React, and another being a full stack app, demonstrating proficiency in
+                modern web development technologies. I have good understanding how the server side code, coupled with the database, work together with the client side. My understanding in this realm (server side) include the following technologies, node.js, express.js, and MySQL. I am passionate about leveraging technology to drive innovation and solve
                 complex business challenges. As someone who is open to new
                 opportunities and eager to learn and grow professionally, I am
                 excited about the prospect of blending my skills and experiences
-                to tackling new challenges.
+                within a corporate setting.
               </span>
             </p>
 
