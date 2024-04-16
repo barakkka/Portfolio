@@ -520,7 +520,6 @@ a {
   gap: 4rem;
   width: fit-content;
   /* border: 1px solid white; */
-  transition: animationDuration 3s ease-in-out;
   animation: skillMotion 100s linear infinite;
 }
 @keyframes skillMotion {
