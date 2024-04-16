@@ -213,10 +213,10 @@ a {
     width: 78%;
   }
   8% {
-    width: 21%;
+    width: 22%;
   }
   25% {
-    width: 21%;
+    width: 22%;
   }
   33.3% {
     width: 78%;
@@ -907,6 +907,9 @@ input[type="submit"] {
   #firstP {
     /* border: 1px solid white; */
     padding: 0 10px;
+  }
+  #hide div {
+    width: 0.1rem;
   }
 
   /*-----About-----*/
