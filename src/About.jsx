@@ -13,7 +13,7 @@ function About() {
           expandHeight.style.height = "35rem";
           console.log("less than 1300px");
         } else {
-          expandHeight.style.height = "27rem";
+          expandHeight.style.height = "28rem";
           console.log("more than 1300px");
         }
         moreDetails.style.display = "block";
@@ -45,6 +45,7 @@ function About() {
               timely solutions. I am ready to utilize my expertise and passion
               to further the mission of your company
               <span id="moreDetails">
+                <br />
                 I have completed a total of 12 front-end web projects so far,
                 with 7 of them utilizing React, demonstrating proficiency in
                 modern web development technologies. I am passionate
