@@ -858,11 +858,11 @@ input[type="submit"] {
   }
   #relativeH2 {
     margin: auto;
-    width: 24rem;
+    width: 20rem;
     text-align: left;
   } 
   #relativeH2 h2{
-    font-size: large;
+    font-size: medium;
   }
   #homeWrapper {
     flex-direction: column-reverse;
