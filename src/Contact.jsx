@@ -88,8 +88,9 @@ function Contact() {
           <p>Copyright &copy; 2024 By Baraka Karuru | All Rights Reserved</p>
         </div>
         <div id="backToTop">
-          <button className="button" onClick={scrollToTop}>
+          <button className="button" id="buttonHide" onClick={scrollToTop}>
             <FontAwesomeIcon icon={faChevronUp} id="topIcon" />
+            <FontAwesomeIcon icon={faChevronUp} id="topIconHidden" />
           </button>
         </div>
       </div>
