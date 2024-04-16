@@ -164,7 +164,7 @@ a {
 }
 #textMotion {
   color: var(--foreground);
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
 }
 #myName {
   font-size: 3.3rem;
@@ -186,7 +186,7 @@ a {
 }
 #relativeH2 {
   position: relative;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 32rem; /* at media */
 }
 #hide {
@@ -198,7 +198,7 @@ a {
   display: flex;
   align-items: center;
   background-color: var(--background);
-  border: 1px solid white;
+  /* border: 1px solid white; */
   animation: unhideMotion 30s ease-in-out infinite;
 }
 #hide div {
@@ -860,8 +860,8 @@ input[type="submit"] {
     margin: auto;
     width: 20rem;
     text-align: left;
-  } 
-  #relativeH2 h2{
+  }
+  #relativeH2 h2 {
     font-size: medium;
   }
   #homeWrapper {
@@ -998,7 +998,7 @@ input[type="submit"] {
     font-size: 14px;
     min-width: 60%;
   }
-  #contactWrapper{
+  #contactWrapper {
     width: 90%;
     margin: auto;
   }
