@@ -499,6 +499,7 @@ a {
 #skillsWrapper {
   height: 100vh;
   position: relative;
+  z-index: 100;
 }
 #skillsWrapper h2 {
   text-align: center;
