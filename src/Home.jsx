@@ -78,7 +78,7 @@ function Home() {
       <div id="myIntro">
         <div id="introText">
           <h2>Hello, It's Me</h2>
-          <h1 id="myName">-Baraka Karuru-</h1>
+          <h1 id="myName">Baraka Karuru</h1>
           <div id="relativeH2">
             <h2>
               And I'm a <span id="textMotion"></span>

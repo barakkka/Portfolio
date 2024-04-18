@@ -170,8 +170,8 @@ a {
   font-size: 3.3rem;
   margin: 0;
   animation: nameMotion 1s ease-in-out;
-  color: gold;
-  text-shadow: 0 0 5px gold;
+  color: var(--foreground);
+  text-shadow: 0 0 5px var(--foreground);
 }
 @keyframes nameMotion {
   0% {
@@ -629,7 +629,7 @@ a {
   border-color: var(--foreground);
   border-radius: 5px;
 }
-#speedVisualContainer{
+#speedVisualContainer {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -637,13 +637,13 @@ a {
   margin: auto;
   margin-top: 10px;
 }
-.visual{
+.visual {
   width: 7px;
   height: 7px;
   border: 1px solid var(--foreground);
   border-radius: 50%;
 }
-.active{
+.active {
   background-color: var(--foreground);
 }
 
@@ -777,20 +777,21 @@ input[type="submit"] {
   min-width: 30rem;
   transition: margin 1s ease-in-out;
 }
-#buttonHide{
+#buttonHide {
   overflow: hidden;
   box-shadow: none;
 }
 #topIcon {
   transition: transform 0.3s ease-in-out;
 }
-#topIconHidden{
+#topIconHidden {
   position: absolute;
   right: 35%;
   top: 100%;
   transition: transform 0.3s ease-in-out;
 }
-#backToTop button:hover #topIcon, #backToTop button:hover #topIconHidden {
+#backToTop button:hover #topIcon,
+#backToTop button:hover #topIconHidden {
   cursor: pointer;
   transform: translateY(-20px);
 }
