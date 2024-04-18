@@ -365,7 +365,7 @@ a {
   transform: rotate(-4deg) scaleX(-1);
   bottom: -130px;
   right: -20px;
-  z-index: 1000;
+  z-index: 100;
   background: none;
   filter: contrast(1.2);
 }
