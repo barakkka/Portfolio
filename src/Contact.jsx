@@ -23,7 +23,7 @@ function Contact() {
         </h2>
         <hr />
         <p>
-          Form under Maintenance.. Kindly message me through{" "}
+          Form under Maintenance.. Kindly reach me through{" "}
           <a
             href="https://www.linkedin.com/in/baraka-karuru-b59b12251/"
             target="blank"
