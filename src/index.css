@@ -171,7 +171,7 @@ a {
   margin: 0;
   animation: nameMotion 1s ease-in-out;
   color: var(--foreground);
-  text-shadow: 0 0 5px var(--foreground);
+  /* text-shadow: 0 0 5px var(--foreground); */
 }
 @keyframes nameMotion {
   0% {
@@ -388,21 +388,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.firstImageAnimation {
-  transform: translateY(100px);
-  animation: firstImageAnimation 1.2s ease-in-out forwards;
-}
-@keyframes firstImageAnimation {
-  0% {
-    transform: translateY(120px);
-  }
-  30% {
-    transform: translateY(120px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+  transform: rotate(20px);
 }
 .secondImageAnimation {
   animation: second 5s infinite ease-in-out;
@@ -418,6 +404,23 @@ a {
     transform: translateY(0);
   }
 }
+.rotationLoadingAnimation{
+  animation: rotation 2s infinite ease-in-out
+}
+@keyframes rotation {
+  0%{
+    transform: rotate(0);
+  }
+  45%{
+    transform: rotate(90deg);
+  }
+  55%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
 .octagon {
   width: 80%;
   height: 12.7rem;
@@ -425,14 +428,13 @@ a {
   position: absolute;
   border-radius: 1.5rem;
   background-color: var(--foreground);
+  transition: box-shadow 1s linear;
 }
 .tilted {
   transform: rotate(60deg);
-  box-shadow: 7px 0 10px var(--foreground);
 }
 .tiltedPlus {
   transform: rotate(120deg);
-  box-shadow: 7px 0 10px var(--foreground);
 }
 
 /*----- About Me ------*/

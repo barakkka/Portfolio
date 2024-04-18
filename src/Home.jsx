@@ -4,6 +4,14 @@ import { faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
 function Home() {
+  const handleImageLoad = () => {
+    const image = document.getElementById("image");
+    const tiltedPlus = document.querySelector(".tiltedPlus");
+    const tilted = document.querySelector(".tilted");
+    image.classList.replace("rotationLoadingAnimation", "secondImageAnimation");
+    tiltedPlus.style.boxShadow = `7px 0 10px var(--foreground)`;
+    tilted.style.boxShadow = `7px 0 10px var(--foreground)`;
+  };
   const socialLinksArr = [
     {
       name: "In",
@@ -47,14 +55,11 @@ function Home() {
     document.body.removeChild(link);
   };
 
-  useEffect(() => {
-    //image octagon styling
-    const image = document.getElementById("image");
-    const addSecondAnimation = () => {
-      image.classList.replace("firstImageAnimation", "secondImageAnimation");
-    };
-    setTimeout(addSecondAnimation, 1200);
+  // useEffect(() => {
 
+  // }, [imageLoaded])
+
+  useEffect(() => {
     //I am a what.. styling... switching between different skills
     const myRoles = document.getElementById("textMotion");
     const myRolesArr = [
@@ -131,11 +136,12 @@ function Home() {
         </div>
       </div>
       <div id="myImage">
-        <div id="image" className="firstImageAnimation">
+        <div id="image" className="rotationLoadingAnimation">
           <img
             src="/Portfolio/images/Baraka Chilling.svg"
             alt="Baraka karuru"
             id="baraka"
+            onLoad={handleImageLoad}
           />
           <div className="octagon"></div>
           <div className="octagon tilted"></div>
