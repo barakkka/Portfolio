@@ -139,7 +139,7 @@ function Home() {
         <div id="image" className="rotationLoadingAnimation">
           <img
             src="/Portfolio/images/Baraka Chilling.svg"
-            alt="Baraka karuru"
+            alt="Me"
             id="baraka"
             onLoad={handleImageLoad}
           />
