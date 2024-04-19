@@ -966,7 +966,7 @@ input[type="submit"] {
     transform: scale(1.2) rotate(-4deg) scaleX(-1);
     bottom: -70px;
     right: -13px;
-    z-index: 1000;
+    z-index: 100;
     background: none;
   }
   #aboutWrapper #homeWrapper #myIntro {
