@@ -28,10 +28,33 @@ function About() {
     });
   }, [display]);
 
+  useEffect(() => {
+    const observeIntro = document.querySelector(".observeIntro");
+    const observeImage = document.querySelector(".observeImage");
+    const style = getComputedStyle(observeImage);
+    console.log(style.marginLeft);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(
+        (entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.marginLeft = `0px`;
+            entry.target.style.opacity = `100`;
+          }
+        },
+        {
+          threshold: 0.3,
+        }
+      );
+    });
+
+    observer.observe(observeImage);
+    observer.observe(observeIntro);
+  }, []);
+
   return (
     <div id="aboutWrapper">
       <section id="homeWrapper">
-        <div id="myIntro">
+        <div id="myIntro" className="observeIntro">
           <div id="introText" className="expandHeight">
             <h1 id="myName">
               About <span className="color">Me</span>
@@ -45,11 +68,15 @@ function About() {
               timely solutions. I am ready to utilize my expertise and passion
               to further the mission of your company
               <span id="moreDetails">
-                <br />
-                I have completed a total of 12 projects so far,
-                with 7 of them utilizing React, and another being a full stack app, demonstrating proficiency in
-                modern web development technologies. I have good understanding how the server side code, coupled with the database, work together with the client side. My understanding in this realm (server side) include the following technologies, node.js, express.js, and MySQL. I am passionate about leveraging technology to drive innovation and solve
-                complex business challenges. As someone who is open to new
+                <br />I have completed a total of 12 projects so far, with 7 of
+                them utilizing React, and another being a full stack app,
+                demonstrating proficiency in modern web development
+                technologies. I have good understanding how the server side
+                code, coupled with the database, work together with the client
+                side. My understanding in this realm (server side) include the
+                following technologies, node.js, express.js, and MySQL. I am
+                passionate about leveraging technology to drive innovation and
+                solve complex business challenges. As someone who is open to new
                 opportunities and eager to learn and grow professionally, I am
                 excited about the prospect of blending my skills and experiences
                 within a corporate setting.
@@ -63,7 +90,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div id="myImage">
+        <div id="myImage" className="observeImage">
           <div id="image" className="firstImageAnimation">
             <img
               src="/Portfolio/images/Baraka Chilling.svg"

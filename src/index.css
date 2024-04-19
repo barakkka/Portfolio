@@ -441,6 +441,7 @@ a {
 #aboutWrapper {
   background-color: var(--lighter);
   height: fit-content;
+  width: 100vw;
 }
 #aboutWrapper #homeWrapper {
   flex-direction: row-reverse;
@@ -460,10 +461,16 @@ a {
   width: 70%;
   /* border: 1px solid yellow; */
   justify-content: flex-start;
+  margin-left: 60rem;
+  opacity: 0;
+  transition: margin 2s ease-in-out, opacity 2s ease-in-out;
 }
 #aboutWrapper #homeWrapper #myImage {
   width: 30%;
   padding-left: 5rem;
+  margin-left: -20rem;
+  opacity: 0;
+  transition: margin 2s ease-in-out, opacity 2s ease-in-out;
 }
 #aboutWrapper #homeWrapper .octagon {
   background: none;
@@ -972,6 +979,7 @@ input[type="submit"] {
   #aboutWrapper #homeWrapper #myIntro {
     justify-content: flex-start;
     height: fit-content;
+    margin-left: 30rem;
     /* border: 1px solid white; */
     width: 90%;
   }
