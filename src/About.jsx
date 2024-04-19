@@ -9,7 +9,11 @@ function About() {
     readMore.addEventListener("click", function () {
       if (display === "none") {
         setDisplay("block");
-        if (window.innerWidth < 1300) {
+        if(window.innerWidth < 500){
+          expandHeight.style.height = "55rem"
+          console.log("less than 650px")
+        }
+        else if (window.innerWidth < 1300) {
           expandHeight.style.height = "41rem";
           console.log("less than 1300px");
         } else {
