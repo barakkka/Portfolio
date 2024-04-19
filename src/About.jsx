@@ -54,9 +54,9 @@ function About() {
   return (
     <div id="aboutWrapper">
       <section id="homeWrapper">
-        <div id="myIntro" className="observeIntro">
+        <div id="myIntro">
           <div id="introText" className="expandHeight">
-            <h1 id="myName">
+            <h1 id="myName" className="observeIntro">
               About <span className="color">Me</span>
             </h1>
             <h2>Frontend Developer!</h2>
@@ -90,8 +90,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div id="myImage" className="observeImage">
-          <div id="image" className="firstImageAnimation">
+        <div id="myImage">
+          <div id="image" className="firstImageAnimation observeImage">
             <img
               src="/Portfolio/images/Baraka Chilling.svg"
               alt="Baraka karuru"
