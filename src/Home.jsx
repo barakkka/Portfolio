@@ -8,9 +8,13 @@ function Home() {
     const image = document.getElementById("image");
     const tiltedPlus = document.querySelector(".tiltedPlus");
     const tilted = document.querySelector(".tilted");
+    const shiny = document.getElementById("shiny")
+
     image.classList.replace("rotationLoadingAnimation", "secondImageAnimation");
     tiltedPlus.style.boxShadow = `7px 0 10px var(--foreground)`;
     tilted.style.boxShadow = `7px 0 10px var(--foreground)`;
+
+    shiny.classList.add('shiny')
   };
   const socialLinksArr = [
     {
@@ -137,6 +141,7 @@ function Home() {
       </div>
       <div id="myImage">
         <div id="image" className="rotationLoadingAnimation">
+          <div id="shiny"></div>
           <img
             src="/Portfolio/images/Baraka Chilling.svg"
             alt="Me"

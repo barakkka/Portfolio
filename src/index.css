@@ -383,12 +383,43 @@ a {
   min-height: 25rem;
   min-width: 25rem;
   margin-top: 2rem;
+  border-radius: 50%;
   /* border: 1px solid white; */
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: rotate(20px);
+}
+.shiny{
+  position: absolute;
+  height: 48%;
+  width: 30px;
+  transform: rotate(-58deg);
+  border-radius: 30px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    white,
+    transparent
+  );
+  left: 6.7rem;
+  bottom: -1.7rem;
+  z-index: 1001;
+  animation: shinyAnimation 0.5s linear forwards;
+}
+@keyframes shinyAnimation {
+  0%{
+    transform: translateX(0) rotate(-58deg);
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(10rem) translateY(-16.5rem) rotate(-58deg);
+    opacity: 0;
+  }
 }
 .secondImageAnimation {
   animation: second 5s infinite ease-in-out;
@@ -938,6 +969,25 @@ input[type="submit"] {
   #image {
     min-width: 12rem;
     min-height: 12rem;
+  }
+  .shiny{
+    height: 60%;
+    left: 2.5rem;
+    bottom: -2.2rem;
+    animation: shinyAnimation 0.5s linear forwards;
+  }
+  @keyframes shinyAnimation {
+    0%{
+      transform: translateX(0) rotate(-58deg);
+      opacity: 1;
+    }
+    90%{
+      opacity: 1;
+    }
+    100%{
+      transform: translateX(5rem) translateY(-9rem) rotate(-58deg);
+      opacity: 0;
+    }
   }
   .octagon {
     width: 11.5rem;
