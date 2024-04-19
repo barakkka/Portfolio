@@ -11,14 +11,11 @@ function About() {
         setDisplay("block");
         if(window.innerWidth < 500){
           expandHeight.style.height = "55rem"
-          console.log("less than 650px")
         }
         else if (window.innerWidth < 1300) {
           expandHeight.style.height = "41rem";
-          console.log("less than 1300px");
         } else {
           expandHeight.style.height = "31rem";
-          console.log("more than 1300px");
         }
         moreDetails.style.display = "block";
         moreDetails.style.opacity = "1";
@@ -36,7 +33,6 @@ function About() {
     const observeIntro = document.querySelector(".observeIntro");
     const observeImage = document.querySelector(".observeImage");
     const style = getComputedStyle(observeImage);
-    console.log(style.marginLeft);
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(
         (entry) => {

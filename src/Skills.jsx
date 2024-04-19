@@ -125,11 +125,11 @@ function Skills() {
         let computedStyle = window.getComputedStyle(skillsMotion);
         if (computedStyle.animationDuration === speedArray[i] && !updated) {
           skillsMotion.style.animationDuration = speedArray[i + 1];
-          console.log(
-            `Array Value: ${speedArray[i + 1]} Computed Style: ${
-              window.getComputedStyle(skillsMotion).animationDuration
-            }`
-          );
+          // console.log(
+          //   `Array Value: ${speedArray[i + 1]} Computed Style: ${
+          //     window.getComputedStyle(skillsMotion).animationDuration
+          //   }`
+          // );
           setSpeedVisual((prev) => prev + 1);
           updated = true;
           break;
@@ -142,11 +142,6 @@ function Skills() {
         let computedStyle = window.getComputedStyle(skillsMotion);
         if (computedStyle.animationDuration === speedArray[i] && !updated) {
           skillsMotion.style.animationDuration = speedArray[i - 1];
-          console.log(
-            `Array Value: ${speedArray[i - 1]} Computed Style: ${
-              window.getComputedStyle(skillsMotion).animationDuration
-            }`
-          );
           setSpeedVisual((prev) => prev - 1)
           updated = true;
           break;
