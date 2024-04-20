@@ -790,7 +790,20 @@ a {
   border-radius: 10px;
   border: none;
   color: white;
+  vertical-align: middle;
   background-color: var(--lighter);
+}
+.activated{
+  color: green !important;
+  animation: activated 3s ease-in-out forwards;
+}
+@keyframes activated {
+  0%{
+    background-color: var(--lighter);
+  }
+  100%{
+    background-color: black;
+  }
 }
 .input:focus {
   outline: none;
