@@ -498,7 +498,7 @@ a {
   padding-left: 5rem;
 }
 #aboutWrapper #myImage #image{
-  margin-left: -20rem;
+  margin-right: 20rem;
   opacity: 0;
   transition: margin 2s ease-in-out, opacity 2s ease-in-out;
 }
@@ -514,9 +514,9 @@ a {
   text-shadow: none;
   font-size: 3.5rem;
   color: white;
-  margin-left: 20rem;
+  padding-left: 20rem;
   opacity: 0;
-  transition: margin 2s ease-in-out, opacity 2s ease-in-out;
+  transition: padding 2s ease-in-out, opacity 2s ease-in-out;
 }
 #aboutWrapper #introText h2 {
   font-size: 1.9rem;
@@ -937,7 +937,10 @@ input[type="submit"] {
   #homeWrapper {
     flex-direction: column-reverse;
     align-items: center;
-    height: fit-content;
+    height: 100vh;
+  }
+  #cvButton{
+    margin-bottom: 3rem;
   }
   #myIntro {
     width: 100%;
@@ -1036,7 +1039,7 @@ input[type="submit"] {
   }
   #aboutWrapper #homeWrapper #myName {
     font-size: 3.1rem;
-    margin-left: 10rem;
+    padding-left: 10rem;
   }
   #aboutWrapper #homeWrapper #introText {
     margin-right: 1rem;

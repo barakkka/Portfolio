@@ -37,7 +37,8 @@ function About() {
       entries.forEach(
         (entry) => {
           if (entry.isIntersecting) {
-            entry.target.style.marginLeft = `0px`;
+            entry.target.style.marginRight = `0px`;
+            entry.target.style.padding = `0px`
             entry.target.style.opacity = `100`;
           }
         },
