@@ -73,7 +73,7 @@ Find the link above the form or at the home page.
         <h2>
           Contact <span className="color">Me</span>
         </h2>
-        {/* <hr />
+        <hr />
         <p>
           Form under Maintenance.. Kindly reach me through{" "}
           <a
@@ -84,7 +84,7 @@ Find the link above the form or at the home page.
             my linkedIn account
           </a>
         </p>
-        <hr /> */}
+        <hr />
       </div>
       <div>
         <form action="#" id="form">
