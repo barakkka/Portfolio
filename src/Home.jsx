@@ -102,9 +102,9 @@ function Home() {
           <p id="firstP">
             {/* Genuinely interested and driven towards creating visually appealing
             interfaces that are dynamic and responsive. */}
-            I will use my passion and skills together with your requirements to
-            create and monitor professional and engaging content that meets the
-            needs of the specified audience.
+            I am ready to use my passion and skills together with your
+            requirements to create professional and engaging content that meets
+            the needs of the specified audience.
           </p>
           <div id="socialMedia">
             <button

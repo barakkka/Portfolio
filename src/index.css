@@ -729,7 +729,7 @@ a {
 #musicImage {
   width: 100%;
 }
-.project:hover .hovefrDetails {
+.project:hover .hoverDetails {
   transform: translateY(0);
   cursor: pointer;
 }
@@ -752,7 +752,6 @@ a {
 }
 
 .videos {
-  position: absolute;
   height: 100%;
 }
 
