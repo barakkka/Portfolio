@@ -14,7 +14,7 @@ function Portfolio() {
         {/* ------------- PROJECT 1 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
-            <h2>Random Quote Machine</h2>
+            <h2>Production In Action</h2>
             {/* <p>
               From handling JSON data to dynamically updating the UI, this
               project greatly improved my skills in working with external data
@@ -41,7 +41,7 @@ function Portfolio() {
         {/* ------------- PROJECT 2 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
-            <h2>Music Player App</h2>
+            <h2>Our Client - Imelda</h2>
             {/* <p>
               Algorithmic thinking. Nested Data structures. 
             </p>
@@ -70,7 +70,7 @@ function Portfolio() {
         {/* ------------- PROJECT 3 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
-            <h2>Drum Machine</h2>
+            <h2>Informative Long-form Content</h2>
             {/* <p>
               Creating Interactive user interfaces, passing data between
               components, audio playback and state management.
@@ -93,7 +93,7 @@ function Portfolio() {
         {/* ------------- PROJECT 4 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
-            <h2>Todo List App</h2>
+            <h2>Lukenya Motorcross</h2>
             {/* <p>
               Organizing and structuring data, implementing CRUD operations and
               a responsive user interface
@@ -120,7 +120,7 @@ function Portfolio() {
         {/* ------------- PROJECT 5 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
-            <h2>Markdown Converter</h2>
+            <h2>Our Client - Church</h2>
             {/* <p>
               Parsing and rendering markdown syntax in real-time. Integration of
               third-party libraries
