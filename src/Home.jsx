@@ -104,7 +104,7 @@ function Home() {
             interfaces that are dynamic and responsive. */}
             I am ready to use my passion and skills together with your
             requirements to create professional and engaging content that meets
-            the needs of the specified audience.
+            the needs of your specified audience.
           </p>
           <div id="socialMedia">
             <button
