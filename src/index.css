@@ -391,32 +391,27 @@ a {
   justify-content: center;
   transform: rotate(20px);
 }
-.shiny{
+.shiny {
   position: absolute;
   height: 48%;
   width: 30px;
   transform: rotate(-58deg);
   border-radius: 30px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    white,
-    transparent
-  );
+  background: linear-gradient(to right, transparent, white, transparent);
   left: 6.7rem;
   bottom: -1.7rem;
   z-index: 1001;
   animation: shinyAnimation 0.5s linear forwards;
 }
 @keyframes shinyAnimation {
-  0%{
+  0% {
     transform: translateX(0) rotate(-58deg);
     opacity: 1;
   }
-  90%{
+  90% {
     opacity: 1;
   }
-  100%{
+  100% {
     transform: translateX(10rem) translateY(-16.5rem) rotate(-58deg);
     opacity: 0;
   }
@@ -435,20 +430,20 @@ a {
     transform: translateY(0);
   }
 }
-.rotationLoadingAnimation{
-  animation: rotation 2s infinite ease-in-out
+.rotationLoadingAnimation {
+  animation: rotation 2s infinite ease-in-out;
 }
 @keyframes rotation {
-  0%{
+  0% {
     transform: rotate(0);
   }
-  45%{
+  45% {
     transform: rotate(90deg);
   }
-  55%{
+  55% {
     transform: rotate(90deg);
   }
-  100%{
+  100% {
     transform: rotate(180deg);
   }
 }
@@ -497,7 +492,7 @@ a {
   width: 30%;
   padding-left: 5rem;
 }
-#aboutWrapper #myImage #image{
+#aboutWrapper #myImage #image {
   margin-right: 20rem;
   opacity: 0;
   transition: margin 2s ease-in-out, opacity 2s ease-in-out;
@@ -734,7 +729,7 @@ a {
 #musicImage {
   width: 100%;
 }
-.project:hover .hoverDetails {
+.project:hover .hovefrDetails {
   transform: translateY(0);
   cursor: pointer;
 }
@@ -756,7 +751,7 @@ a {
   cursor: pointer;
 }
 
-.videos{
+.videos {
   position: absolute;
   height: 100%;
 }
@@ -798,15 +793,15 @@ a {
   vertical-align: middle;
   background-color: var(--lighter);
 }
-.activated{
+.activated {
   color: green !important;
   animation: activated 3s ease-in-out forwards;
 }
 @keyframes activated {
-  0%{
+  0% {
     background-color: var(--lighter);
   }
-  100%{
+  100% {
     background-color: black;
   }
 }
@@ -957,7 +952,7 @@ input[type="submit"] {
     align-items: center;
     height: 100vh;
   }
-  #cvButton{
+  #cvButton {
     margin-bottom: 3rem;
   }
   #myIntro {
@@ -991,21 +986,21 @@ input[type="submit"] {
     min-width: 12rem;
     min-height: 12rem;
   }
-  .shiny{
+  .shiny {
     height: 60%;
     left: 2.5rem;
     bottom: -2.2rem;
     animation: shinyAnimation 0.5s linear forwards;
   }
   @keyframes shinyAnimation {
-    0%{
+    0% {
       transform: translateX(0) rotate(-58deg);
       opacity: 1;
     }
-    90%{
+    90% {
       opacity: 1;
     }
-    100%{
+    100% {
       transform: translateX(5rem) translateY(-9rem) rotate(-58deg);
       opacity: 0;
     }
@@ -1095,9 +1090,9 @@ input[type="submit"] {
   }
 
   /*Portfolio.jsx*/
-  .project .hoverDetails {
-    transform: translateY(0); /* --SET THIS IF ONE CANT HOVER ON PHONE!. */
-  }
+  /* .project .hoverDetails {
+       transform: translateY(0); --SET THIS IF ONE CANT HOVER ON PHONE!.
+  } */
   #latestProject h2 {
     font-size: 3.1rem;
   }
