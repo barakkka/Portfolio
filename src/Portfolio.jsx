@@ -15,27 +15,34 @@ function Portfolio() {
         <div className="project">
           <div className="hoverDetails">
             <h2>Random Quote Machine</h2>
-            <p>
+            {/* <p>
               From handling JSON data to dynamically updating the UI, this
               project greatly improved my skills in working with external data
               sources.
-            </p>
-            <a
+            </p> */}
+            {/* <a
               href="https://barakkka.github.io/random-quote-machine/"
               target="_blank"
             >
               <button className="goToProject">
                 <FontAwesomeIcon icon={faExternalLink} />
               </button>
-            </a>
+            </a> */}
           </div>
-          <img src="/Portfolio/images/quotes.jpeg" alt="random quotes" id="quoteImage" />
+          <video
+            className="videos"
+            src="/Portfolio/videos/CAMERA.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* <img src="/Portfolio/images/quotes.jpeg" alt="random quotes" id="quoteImage" /> */}
         </div>
         {/* ------------- PROJECT 2 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Music Player App</h2>
-            <p>
+            {/* <p>
               Algorithmic thinking. Nested Data structures. 
             </p>
             <a
@@ -45,19 +52,26 @@ function Portfolio() {
               <button className="goToProject">
                 <FontAwesomeIcon icon={faExternalLink} />
               </button>
-            </a>
+            </a> */}
           </div>
-          <img
+          <video
+            className="videos"
+            src="/Portfolio/videos/MAKEUP UNMATCHED.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* <img
             src="/Portfolio/images/HD-wallpaper-music-neon-icon.jpg"
             alt="Music Logo"
             id="musicImage"
-          />
+          /> */}
         </div>
         {/* ------------- PROJECT 3 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Drum Machine</h2>
-            <p>
+            {/* <p>
               Creating Interactive user interfaces, passing data between
               components, audio playback and state management.
             </p>
@@ -65,15 +79,22 @@ function Portfolio() {
               <button className="goToProject">
                 <FontAwesomeIcon icon={faExternalLink} />
               </button>
-            </a>
+            </a> */}
           </div>
-          <img src="/Portfolio/images/drum.jpg" alt="drums" id="drumImage" />
+          <video
+            className="videos"
+            src="/Portfolio/videos/DIVULGE.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* <img src="/Portfolio/images/drum.jpg" alt="drums" id="drumImage" /> */}
         </div>
         {/* ------------- PROJECT 4 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Todo List App</h2>
-            <p>
+            {/* <p>
               Organizing and structuring data, implementing CRUD operations and
               a responsive user interface
             </p>
@@ -81,19 +102,26 @@ function Portfolio() {
               <button className="goToProject">
                 <FontAwesomeIcon icon={faExternalLink} />
               </button>
-            </a>
+            </a> */}
           </div>
-          <img
+          <video
+            className="videos"
+            src="/Portfolio/videos/LUKENYA.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* <img
             src="/Portfolio/images/todolist.jpg"
             alt="todolist image"
             id="todolistImage"
-          />
+          /> */}
         </div>
         {/* ------------- PROJECT 5 ------------------ */}
         <div className="project">
           <div className="hoverDetails">
             <h2>Markdown Converter</h2>
-            <p>
+            {/* <p>
               Parsing and rendering markdown syntax in real-time. Integration of
               third-party libraries
             </p>
@@ -104,16 +132,23 @@ function Portfolio() {
               <button className="goToProject">
                 <FontAwesomeIcon icon={faExternalLink} />
               </button>
-            </a>
+            </a> */}
           </div>
-          <img
+          <video
+            className="videos"
+            src="/Portfolio/videos/CHURCH.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+          {/* <img
             src="/Portfolio/images/markdown.png"
             alt="markdown logo"
             id="markdownImage"
-          />
+          /> */}
         </div>
         {/* ------------- PROJECT 6 ------------------ */}
-        <div className="project">
+        {/* <div className="project">
           <div className="hoverDetails">
             <h2>Defeat The Dragon Game</h2>
             <p>
@@ -134,7 +169,7 @@ function Portfolio() {
             alt="dragon standing on mountain"
             id="dragonImage"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

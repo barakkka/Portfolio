@@ -23,7 +23,7 @@ body {
   background-color: rgb(31, 35, 45);
 }
 #fixedHeader {
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   width: 100%;
   top: 0;
@@ -222,19 +222,19 @@ a {
     width: 78%;
   }
   41% {
-    width: 32%;
+    width: 29%;
   }
   50% {
-    width: 32%;
+    width: 29%;
   }
   66.6% {
     width: 78%;
   }
   74% {
-    width: 39%;
+    width: 49%;
   }
   82% {
-    width: 39%;
+    width: 49%;
   }
   100% {
     width: 78%;
@@ -754,6 +754,11 @@ a {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+}
+
+.videos{
+  position: absolute;
+  height: 100%;
 }
 
 /*------CONTACT.JSX------*/

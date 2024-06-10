@@ -13,78 +13,62 @@ function Skills() {
 
   const skillArr = [
     {
-      name: "HTML",
-      content: `I began my journey into web development by learning HTML back in 2023 through freeCodeCamp's interactive projects. HTML's structure and simplicity fascinated me, as it provided the foundation for building web pages and organizing content effectively.<br/><br/>
+      name: "Creative-Video-Production",
+      content: ` Leveraging my role as Director of a full-service production and creative design startup, I specialize in creative video production that captivates audiences and delivers impactful messages.<br/><br/>
 
-      As I delved deeper, I discovered the power of semantic HTML, understanding how proper markup not only enhances accessibility but also improves SEO and overall code readability. Through hands-on projects and experimentation, I honed my skills in crafting well-structured and semantically meaningful HTML documents.<br/><br/>
+      From conceptualization to execution, I work closely with clients to understand their objectives and translate them into visually compelling stories. My expertise extends to scriptwriting, where I craft narratives that resonate with viewers and evoke emotional responses. Utilizing advanced filming techniques and state-of-the-art equipment, I ensure that each shot is meticulously planned and executed to achieve the desired aesthetic and storytelling effect.<br/><br/>
       
-      HTML opened the door to the world of web development for me, igniting my passion for creating visually appealing and accessible websites. Its versatility and fundamental role in web development continue to inspire me as I embark on new projects and challenges.`,
+      My approach to creative video production is collaborative and client-focused, prioritizing open communication and feedback throughout the process. I believe in creating an environment where ideas are freely exchanged, allowing for innovation and creativity to flourish. By fostering strong partnerships with clients, I am able to deliver video content that not only meets but exceeds their expectations, driving results and achieving their goals. With a keen eye for detail and a passion for storytelling, I bring a unique perspective to every project, resulting in videos that leave a lasting impression on audiences..`,
     },
     {
-      name: "CSS",
-      content: `My journey into web development took an exciting turn when I delved into CSS after mastering HTML. Learning CSS through freeCodeCamp's projects opened my eyes to the endless possibilities of styling and designing web pages.<br/><br/>
+      name: "Video-Editing",
+      content: `As a skilled video editor, I excel in transforming raw footage into polished and engaging content that captures the attention of viewers.<br/><br/>
 
-      I found CSS incredibly fascinating for its ability to transform the appearance of HTML elements, from basic text formatting to complex layout designs. Through hands-on projects, I learned various CSS properties and techniques, including selectors, positioning, flexbox, and grid layout.<br/><br/>
+      My expertise lies in using industry-leading software such as Adobe Premiere Pro and Adobe After Effects to bring videos to life with seamless transitions, captivating visual effects, and immersive sound design. From short-form social media clips to long-form documentaries, I approach each project with creativity and precision, ensuring that every frame contributes to the overall narrative and message.<br/><br/>
       
-      Exploring CSS not only enhanced my understanding of web design principles but also sparked my creativity in crafting visually appealing and responsive layouts. I enjoyed experimenting with colors, typography, and animations to bring websites to life and create engaging user experiences.<br/><br/>
-      
-      CSS's flexibility and power in shaping the visual presentation of web content continue to inspire me as I tackle new design challenges and push the boundaries of my creativity.`,
+      My video editing process is characterized by meticulous attention to detail and a commitment to excellence. I meticulously review and refine each edit to ensure coherence, consistency, and visual appeal. Whether it's color grading to enhance mood and atmosphere or audio editing to create immersive soundscapes, I leverage a wide range of tools and techniques to elevate the quality of the final product. With a deep understanding of pacing, timing, and storytelling, I craft videos that not only entertain but also inform and inspire audiences.<br/><br/>
+      `,
     },
     {
-      name: "JAVASCRIPT",
-      content: `My journey into web development took a significant leap forward with the introduction of JavaScript into my skillset. After mastering HTML and CSS, I delved into JavaScript, eager to add interactivity and dynamic behavior to my web projects.<br/><br/>
+      name: "Emotional-Storytelling",
+      content: `My expertise in emotional storytelling stems from a deep understanding of human psychology and narrative techniques. By tapping into the fundamental aspects of human emotion, I create video content that resonates with audiences on a profound level.<br/><br/>
 
-      FreeCodeCamp's interactive platform provided an excellent foundation for learning JavaScript, allowing me to grasp the basics and quickly move on to solving real-world coding challenges. The integrated console provided a sandbox environment where I could experiment with JavaScript syntax and concepts, strengthening my understanding through hands-on practice.<br/><br/>
-      
-      As I progressed, I transitioned from solving coding challenges to building interactive web applications, such as a music player app, a dragon slayer game, and a palindrome game, as showcased in my portfolio. These projects not only reinforced my knowledge of JavaScript but also challenged me to think critically and problem-solve creatively.
+      Whether it's evoking feelings of joy, empathy, or inspiration, I craft narratives that elicit a strong emotional response, forging a deeper connection between the viewer and the message being conveyed. Through thoughtful scripting, pacing, and visual composition, I guide viewers on a journey that leaves a lasting impression and drives meaningful engagement.<br/><br/>
+      `,
+    },
+    {
+      name: "Videography",
+      content: `With a keen eye for composition and a passion for visual storytelling, I excel in both photography and videography. Armed with professional-grade equipment, including a Canon EOS 90D, I capture stunning visuals that bring stories to life.<br/><br/>
+
+      Whether it's documenting special moments, capturing the essence of a brand, or showcasing the beauty of a landscape, my photography and videography skills enable me to create compelling imagery that resonates with viewers. From framing and lighting to editing and post-production, I ensure that every image and video reflects the unique vision and narrative of the project.<br/><br/>
+      `,
+    },
+    {
+      name: "Social-Media-Engagement",
+      content: `My proficiency in social media engagement is rooted in a thorough understanding of platform dynamics and audience preferences. By staying abreast of the latest trends and algorithms, I craft video content that resonates with target demographics and maximizes engagement.
       <br/><br/>
-      JavaScript's versatility and power as a programming language continue to amaze me, from manipulating the DOM to handling asynchronous operations and beyond. With each project I undertake, I discover new ways to leverage JavaScript's capabilities and push the boundaries of what I can create on the web.`,
-    },
-    {
-      name: "REACT",
-      content: `My journey into front-end development reached new heights when I began learning React, a powerful JavaScript library for building user interfaces. Guided by freeCodeCamp's comprehensive curriculum, I quickly grasped the fundamentals of React and embarked on developing interactive and dynamic web applications.<br/><br/>
-
-      React's component-based architecture resonated with me, offering a structured and modular approach to building UI components. I was captivated by React's ability to efficiently manage state and seamlessly update the user interface in response to user interactions and data changes.<br/><br/>
-      
-      One of my pivotal learning experiences with React was developing a todo list app, which served as a practical exercise in applying React's concepts, including state management, props, and component lifecycle methods. Through this project and subsequent applications, I gained invaluable experience in building scalable and maintainable React applications.<br/><br/>
-      
-      As I continue to explore React's ecosystem and integrate additional libraries and tools such as Redux for state management, I am constantly amazed by its versatility and flexibility in tackling complex front-end challenges. React has empowered me to create immersive user experiences and push the boundaries of web development.`,
-    },
-    {
-      name: "GIT",
-      content: `During my journey of learning web development, I recognized the importance of version control in managing code changes and collaborating with others effectively. It was during my exploration of React that I also delved into Git, a distributed version control system that revolutionized the way I track, commit, and share my code.
+      From crafting attention-grabbing thumbnails to optimizing video descriptions and hashtags, I employ proven strategies to increase visibility and drive traffic. By fostering authentic interactions and building a loyal following, I help clients establish a strong online presence and achieve their marketing objectives on social media platforms.
       <br/><br/>
-      Through freeCodeCamp's resources and hands-on projects, I learned the fundamentals of Git, including creating repositories, making commits, branching, merging, and resolving conflicts. Git provided me with the confidence to experiment with new features and innovations, knowing that I could always revert to previous states if needed.
-      <br/><br/>
-      As I continued to build and contribute to projects, Git became an indispensable tool in my development workflow. It enabled me to collaborate seamlessly with teammates, synchronize code changes across different environments, and maintain a cohesive codebase throughout the development lifecycle.<br/><br/>
-      
-      My proficiency in Git extends beyond basic commands; I have experience working with remote repositories on platforms like GitHub, where I manage project repositories, participate in open-source communities, and showcase my work to a broader audience.<br/><br/>
-      
-      Git's role in modern software development is undeniable, and my expertise in utilizing Git allows me to work efficiently and confidently in both individual and team settings, ensuring the integrity and stability of codebases while fostering collaboration and innovation.`,
+      `,
     },
     {
-      name: "NODE-JS",
-      content: `Through developing a full-stack web application, I gained hands-on experience with Node.js, Express, and MySQL, discovering how they seamlessly integrate with the client-side technologies.<br/><br/>
+      name: "Adobe",
+      content: `My expertise in Adobe software, particularly Adobe Premiere Pro and Adobe After Effects, is the cornerstone of my video production and editing capabilities. Through formal training and continuous practice, I have developed a deep understanding of these industry-standard tools, enabling me to leverage their full potential in creating professional-grade content.<br/><br/>
 
-      With Node.js, I learned to create robust server-side applications, handle HTTP requests, and build RESTful APIs. Utilizing Express.js, I mastered routing, middleware, and request handling, allowing me to create scalable and efficient server-side logic.<br/><br/>
-      
-      Furthermore, my exploration of MySQL deepened my understanding of databases and data management. I became proficient in querying, updating, and deleting data from the database, as well as optimizing database performance for better scalability and efficiency.<br/><br/>
-      
-      The synergy between Node.js, Express, and MySQL enabled me to build dynamic and interactive web applications, where data flows seamlessly between the client and server. From handling API endpoints to parsing JSON data and implementing CRUD operations, I gained invaluable experience in working with a full tech stack.<br/><br/>
-      
-      As I continue to explore the possibilities of Node.js and its ecosystem, I look forward to leveraging its power and versatility to create innovative and scalable web solutions.`,
+      From timeline editing and color grading to motion graphics and visual effects, I utilize a wide range of features and functionalities to enhance the quality and impact of my videos. With a keen eye for detail and a commitment to staying updated on the latest advancements, I ensure that my skills remain at the forefront of the industry.<br/><br/>
+      `,
     },
     {
-      name: "EXPRESS-JS",
-      content: `In my journey of mastering Node.js, Express.js emerged as a pivotal tool that streamlined the development of server-side applications. With Express.js, I was able to build upon my Node.js knowledge and accelerate the creation of robust and efficient web servers.<br/><br/>
+      name: "Project-Management",
+      content: `My proficiency in project management is grounded in years of experience overseeing video production projects from inception to completion. I excel in coordinating diverse teams and resources to ensure seamless execution and delivery of high-quality content within budget and timeline constraints.<br/><br/>
 
-      Express.js, being a minimalist web framework for Node.js, offered me a lightweight yet powerful platform for handling HTTP requests, routing, and middleware integration. Its simplicity and flexibility allowed me to focus on implementing business logic and building RESTful APIs without the overhead of boilerplate code.`,
+      By establishing clear objectives, setting achievable milestones, and implementing efficient workflows, I streamline the production process and mitigate potential risks. Through effective communication and stakeholder engagement, I foster collaborative partnerships that drive project success and exceed client expectations.`,
     },
     {
-      name: "MySQL",
-      content: `MySQL provided me with tools for data security and user access control, allowing me to implement robust authentication and authorization mechanisms to protect sensitive information and ensure data privacy.
+      name: "Cinematic-Editing",
+      content: `My passion for cinematic editing is evident in my meticulous attention to detail and dedication to crafting visually stunning videos that resonate with audiences. Leveraging advanced editing techniques and creative storytelling elements, I transform raw footage into immersive cinematic experiences that captivate and inspire.<br/><br/>
 
-      By integrating MySQL into my full-stack web development project, I gained valuable experience in building data-driven applications, where data is efficiently stored, retrieved, and manipulated to meet the needs of users and businesses. MySQL's reliability, scalability, and performance made it a cornerstone of my development toolkit, enabling me to create impactful and resilient web solutions.`,
+      From dynamic transitions and seamless cuts to atmospheric sound design and color grading, I imbue each video with a cinematic flair that elevates the storytelling and evokes emotion. With a deep understanding of pacing, rhythm, and narrative structure, I bring a cinematic touch to every project, ensuring that each video leaves a lasting impression on viewers.`,
     },
   ];
 
@@ -110,15 +94,7 @@ function Skills() {
     const slower = document.getElementById("slower");
     const reset = document.getElementById("reset");
 
-    const speedArray = [
-      `140s`,
-      `120s`,
-      `100s`,
-      `80s`,
-      `60s`,
-      `40s`,
-      `20s`,
-    ];
+    const speedArray = [`140s`, `120s`, `100s`, `80s`, `60s`, `40s`, `20s`];
     faster.addEventListener("click", function () {
       let updated = false;
       for (let i = 0; i < speedArray.length - 1; i++) {
@@ -142,7 +118,7 @@ function Skills() {
         let computedStyle = window.getComputedStyle(skillsMotion);
         if (computedStyle.animationDuration === speedArray[i] && !updated) {
           skillsMotion.style.animationDuration = speedArray[i - 1];
-          setSpeedVisual((prev) => prev - 1)
+          setSpeedVisual((prev) => prev - 1);
           updated = true;
           break;
         }
@@ -226,263 +202,274 @@ function Skills() {
           {/* -----Skill: HTML----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faHtml5} className="color icon" />
+              {/* <FontAwesomeIcon icon={faHtml5} className="color icon" /> */}
             </div>
-            <h3>HTML</h3>
+            <h3>Creative Video Production</h3>
             <p>
-              I began my journey into web development by learning HTML back in
-              2023 through freeCodeCamp's interactive projects. HTML's structure
-              and simplicity fascinated me, as it provided the foundation for
-              building web pages and organizing content effectively.
+              Leveraging my role as Director of a full-service production and
+              creative design startup, I excel in conceptualizing and executing
+              video projects from start to finish.
             </p>
-            <button className="button readMoreSkill HTML">Read More</button>
+            <button className="button readMoreSkill Creative-Video-Production">
+              Read More
+            </button>
           </div>
           {/* -----Skill: CSS----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faCss3} className="color icon" />
+              {/* <FontAwesomeIcon icon={faCss3} className="color icon" /> */}
             </div>
-            <h3>CSS</h3>
+            <h3>Video Editing</h3>
             <p>
-              My journey into web development took an exciting turn when I
-              delved into CSS after mastering HTML. Learning CSS through
-              freeCodeCamp's projects opened my eyes to the endless
-              possibilities of styling and designing web pages.
+              As a skilled video editor, I excel in transforming raw footage
+              into polished and engaging content that captures the attention of
+              viewers.
             </p>
-            <button className="button readMoreSkill CSS">Read More</button>
+            <button className="button readMoreSkill Video-Editing">
+              Read More
+            </button>
           </div>
           {/* -----Skill: JAVASCRIPT----- */}
           <div className="skillContainer">
             <div className="skillImage color">
-              <div id="javaScriptBorder">
+              {/* <div id="javaScriptBorder">
                 <div id="javaScriptText">JS</div>
-              </div>
+              </div> */}
             </div>
-            <h3>JavaScript</h3>
+            <h3>Emotional Storytelling</h3>
             <p>
-              My journey into web development took a significant leap forward
-              with the introduction of JavaScript into my skillset. After
-              mastering HTML and CSS, I delved into JavaScript, eager to add
-              interactivity and dynamic behavior to my web projects.
+              My expertise in emotional storytelling stems from a deep
+              understanding of human psychology and narrative techniques. By
+              tapping into the fundamental aspects of human emotion, I create
+              video content that resonates with audiences on a profound level.
             </p>
-            <button className="button readMoreSkill JAVASCRIPT">
+            <button className="button readMoreSkill Emotional-Storytelling">
               Read More
             </button>
           </div>
           {/* -----Skill: REACT----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img src={reactLogo} alt="react Logo" className="reactImage" />
+              {/* <img src={reactLogo} alt="react Logo" className="reactImage" /> */}
             </div>
-            <h3>React</h3>
+            <h3>Videography</h3>
             <p>
-              My journey into front-end development reached new heights when I
-              began learning React. Guided by freeCodeCamp's comprehensive
-              curriculum, I quickly grasped the fundamentals of React and
-              embarked on developing interactive and dynamic web applications.
+              With a keen eye for composition and a passion for visual
+              storytelling, I excel in both photography and videography. Armed
+              with professional-grade equipment, including a Canon EOS 90D, I
+              capture stunning visuals that bring stories to life.
             </p>
-            <button className="button readMoreSkill REACT">Read More</button>
+            <button className="button readMoreSkill Videography">
+              Read More
+            </button>
           </div>
           {/* -----Skill: GIT----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faGitSquare} className="color icon" />
+              {/* <FontAwesomeIcon icon={faGitSquare} className="color icon" /> */}
             </div>
-            <h3>GIT</h3>
+            <h3>Social Mdia Engagement</h3>
             <p>
-              I recognized the importance of version control in managing code
-              changes and collaborating with others effectively. It was during
-              my exploration of React that I also delved into Git, a distributed
-              version control system that revolutionized the way I track,
-              commit, and share my code.
+              My proficiency in social media engagement is rooted in a thorough
+              understanding of platform dynamics and audience preferences. By
+              staying abreast of the latest trends and algorithms, I craft video
+              content that resonates with target demographics and maximizes
+              engagement.
             </p>
-            <button className="button readMoreSkill GIT ">Read More</button>
+            <button className="button readMoreSkill Social-Media-Engagement ">
+              Read More
+            </button>
           </div>
           {/* -----Skill: NODE----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img
+              {/* <img
                 src="/Portfolio/images/nodejs-logo-vector.svg"
                 alt="node.js logo"
                 className="skillLogo"
-              />
+              /> */}
             </div>
-            <h3>NODE.JS</h3>
+            <h3>Adobe</h3>
             <p>
-              Through developing a full-stack web application, I gained hands-on
-              experience with Node.js, Express, and MySQL, discovering how they
-              seamlessly integrate with the client-side technologies.
+              My expertise in Adobe software, particularly Adobe Premiere Pro
+              and Adobe After Effects, is the cornerstone of my video production
+              and editing capabilities.
             </p>
-            <button className="button readMoreSkill NODE-JS">Read More</button>
+            <button className="button readMoreSkill Adobe">Read More</button>
           </div>
           {/* -----Skill: EXPRESS----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <br />
+              {/* <br />
               <hr className="hrColor" />
-              <hr className="hrColor" />
+              <hr className="hrColor" /> */}
             </div>
-            <h3>EXPRESS.JS</h3>
+            <h3>Project Management</h3>
             <p>
-              In my journey of mastering Node.js, Express.js emerged as a
-              pivotal tool that streamlined the development of server-side
-              applications. With Express.js, I was able to build upon my Node.js
-              knowledge and accelerate the creation of robust and efficient web
-              servers.
+              My proficiency in project management is grounded in years of
+              experience overseeing video production projects from inception to
+              completion.
             </p>
-            <button className="button readMoreSkill EXPRESS-JS">
+            <button className="button readMoreSkill Project-Management">
               Read More
             </button>
           </div>
           {/* -----Skill: MYSQL----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img
+              {/* <img
                 src="/Portfolio/images/mysql-logo-vector-1.svg"
                 alt="mysql logo"
                 className="skillLogo mysql"
-              />
+              /> */}
             </div>
-            <h3>MySQL</h3>
+            <h3>Cinematic Editing</h3>
             <p>
-              MySQL provided me with tools for data security and user access
-              control, allowing me to implement robust authentication and
-              authorization mechanisms to protect sensitive information and
-              ensure data privacy.
+              My passion for cinematic editing is evident in my meticulous
+              attention to detail and dedication to crafting visually stunning
+              videos that resonate with audiences.
             </p>
-            <button className="button readMoreSkill MySQL">Read More</button>
+            <button className="button readMoreSkill Cinematic-Editing">
+              Read More
+            </button>
           </div>
           {/* ------------------------DUPLICATE SKILLS SET------------------------- */}
 
           {/* -----Skill: HTML----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faHtml5} className="color icon" />
+              {/* <FontAwesomeIcon icon={faHtml5} className="color icon" /> */}
             </div>
-            <h3>HTML</h3>
+            <h3>Creative Video Production</h3>
             <p>
-              I began my journey into web development by learning HTML back in
-              2023 through freeCodeCamp's interactive projects. HTML's structure
-              and simplicity fascinated me, as it provided the foundation for
-              building web pages and organizing content effectively.
+              Leveraging my role as Director of a full-service production and
+              creative design startup, I excel in conceptualizing and executing
+              video projects from start to finish.
             </p>
-            <button className="button readMoreSkill HTML">Read More</button>
+            <button className="button readMoreSkill Creative-Video-Production">
+              Read More
+            </button>
           </div>
           {/* -----Skill: CSS----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faCss3} className="color icon" />
+              {/* <FontAwesomeIcon icon={faCss3} className="color icon" /> */}
             </div>
-            <h3>CSS</h3>
+            <h3>Video Editing</h3>
             <p>
-              My journey into web development took an exciting turn when I
-              delved into CSS after mastering HTML. Learning CSS through
-              freeCodeCamp's projects opened my eyes to the endless
-              possibilities of styling and designing web pages.
+              As a skilled video editor, I excel in transforming raw footage
+              into polished and engaging content that captures the attention of
+              viewers.
             </p>
-            <button className="button readMoreSkill CSS">Read More</button>
+            <button className="button readMoreSkill Video-Editing">
+              Read More
+            </button>
           </div>
           {/* -----Skill: JAVASCRIPT----- */}
           <div className="skillContainer">
             <div className="skillImage color">
-              <div id="javaScriptBorder">
+              {/* <div id="javaScriptBorder">
                 <div id="javaScriptText">JS</div>
-              </div>
+              </div> */}
             </div>
-            <h3>JavaScript</h3>
+            <h3>Emotional Storytelling</h3>
             <p>
-              My journey into web development took a significant leap forward
-              with the introduction of JavaScript into my skillset. After
-              mastering HTML and CSS, I delved into JavaScript, eager to add
-              interactivity and dynamic behavior to my web projects.
+              My expertise in emotional storytelling stems from a deep
+              understanding of human psychology and narrative techniques. By
+              tapping into the fundamental aspects of human emotion, I create
+              video content that resonates with audiences on a profound level.
             </p>
-            <button className="button readMoreSkill JAVASCRIPT">
+            <button className="button readMoreSkill Emotional-Storytelling">
               Read More
             </button>
           </div>
           {/* -----Skill: REACT----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img src={reactLogo} alt="react Logo" className="reactImage" />
+              {/* <img src={reactLogo} alt="react Logo" className="reactImage" /> */}
             </div>
-            <h3>React</h3>
+            <h3>Videography</h3>
             <p>
-              My journey into front-end development reached new heights when I
-              began learning React. Guided by freeCodeCamp's comprehensive
-              curriculum, I quickly grasped the fundamentals of React and
-              embarked on developing interactive and dynamic web applications.
+              With a keen eye for composition and a passion for visual
+              storytelling, I excel in both photography and videography. Armed
+              with professional-grade equipment, including a Canon EOS 90D, I
+              capture stunning visuals that bring stories to life.
             </p>
-            <button className="button readMoreSkill REACT">Read More</button>
+            <button className="button readMoreSkill Videography">
+              Read More
+            </button>
           </div>
           {/* -----Skill: GIT----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <FontAwesomeIcon icon={faGitSquare} className="color icon" />
+              {/* <FontAwesomeIcon icon={faGitSquare} className="color icon" /> */}
             </div>
-            <h3>GIT</h3>
+            <h3>Social Mdia Engagement</h3>
             <p>
-              I recognized the importance of version control in managing code
-              changes and collaborating with others effectively. It was during
-              my exploration of React that I also delved into Git, a distributed
-              version control system that revolutionized the way I track,
-              commit, and share my code.
+              My proficiency in social media engagement is rooted in a thorough
+              understanding of platform dynamics and audience preferences. By
+              staying abreast of the latest trends and algorithms, I craft video
+              content that resonates with target demographics and maximizes
+              engagement.
             </p>
-            <button className="button readMoreSkill GIT ">Read More</button>
+            <button className="button readMoreSkill Social-Media-Engagement ">
+              Read More
+            </button>
           </div>
           {/* -----Skill: NODE----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img
+              {/* <img
                 src="/Portfolio/images/nodejs-logo-vector.svg"
                 alt="node.js logo"
                 className="skillLogo"
-              />
+              /> */}
             </div>
-            <h3>NODE.JS</h3>
+            <h3>Adobe</h3>
             <p>
-              Through developing a full-stack web application, I gained hands-on
-              experience with Node.js, Express, and MySQL, discovering how they
-              seamlessly integrate with the client-side technologies.
+              My expertise in Adobe software, particularly Adobe Premiere Pro
+              and Adobe After Effects, is the cornerstone of my video production
+              and editing capabilities.
             </p>
-            <button className="button readMoreSkill NODE-JS">Read More</button>
+            <button className="button readMoreSkill Adobe">Read More</button>
           </div>
           {/* -----Skill: EXPRESS----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <br />
+              {/* <br />
               <hr className="hrColor" />
-              <hr className="hrColor" />
+              <hr className="hrColor" /> */}
             </div>
-            <h3>EXPRESS.JS</h3>
+            <h3>Project Management</h3>
             <p>
-              In my journey of mastering Node.js, Express.js emerged as a
-              pivotal tool that streamlined the development of server-side
-              applications. With Express.js, I was able to build upon my Node.js
-              knowledge and accelerate the creation of robust and efficient web
-              servers.
+              My proficiency in project management is grounded in years of
+              experience overseeing video production projects from inception to
+              completion.
             </p>
-            <button className="button readMoreSkill EXPRESS-JS">
+            <button className="button readMoreSkill Project-Management">
               Read More
             </button>
           </div>
           {/* -----Skill: MYSQL----- */}
           <div className="skillContainer">
             <div className="skillImage">
-              <img
+              {/* <img
                 src="/Portfolio/images/mysql-logo-vector-1.svg"
                 alt="mysql logo"
                 className="skillLogo mysql"
-              />
+              /> */}
             </div>
-            <h3>MySQL</h3>
+            <h3>Cinematic Editing</h3>
             <p>
-              MySQL provided me with tools for data security and user access
-              control, allowing me to implement robust authentication and
-              authorization mechanisms to protect sensitive information and
-              ensure data privacy.
+              My passion for cinematic editing is evident in my meticulous
+              attention to detail and dedication to crafting visually stunning
+              videos that resonate with audiences.
             </p>
-            <button className="button readMoreSkill MySQL">Read More</button>
+            <button className="button readMoreSkill Cinematic-Editing">
+              Read More
+            </button>
           </div>
+
           {/* --end of skills-- */}
         </div>
       </div>
@@ -497,6 +484,7 @@ function Skills() {
           speed up &gt;
         </button>
       </div>
+
       <div id="speedVisualContainer">
         <div className={speedVisual === 1 ? "visual active" : "visual"}></div>
         <div className={speedVisual === 2 ? "visual active" : "visual"}></div>

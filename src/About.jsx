@@ -9,10 +9,9 @@ function About() {
     readMore.addEventListener("click", function () {
       if (display === "none") {
         setDisplay("block");
-        if(window.innerWidth < 500){
-          expandHeight.style.height = "55rem"
-        }
-        else if (window.innerWidth < 1300) {
+        if (window.innerWidth < 500) {
+          expandHeight.style.height = "55rem";
+        } else if (window.innerWidth < 1300) {
           expandHeight.style.height = "41rem";
         } else {
           expandHeight.style.height = "31rem";
@@ -38,7 +37,7 @@ function About() {
         (entry) => {
           if (entry.isIntersecting) {
             entry.target.style.marginRight = `0px`;
-            entry.target.style.padding = `0px`
+            entry.target.style.padding = `0px`;
             entry.target.style.opacity = `100`;
           }
         },
@@ -60,16 +59,23 @@ function About() {
             <h1 id="myName" className="observeIntro">
               About <span className="color">Me</span>
             </h1>
-            <h2>Frontend Developer!</h2>
+            <h2>Creative Video Editor!</h2>
             <p>
-              Hardworking, insightful and results-driven full-stack web
+              {/* Hardworking, insightful and results-driven full-stack web
               engineer, technologically adept and solution focused employee
               equipped with the necessary analytical skills required in
               prioritizing tasks, identifying technical issues and providing
               timely solutions. I am ready to utilize my expertise and passion
-              to further the mission of your company
+              to further the mission of your company */}
+              Passionate about capturing moments in history through
+              well-organized and engaging storylines, I find the rush of
+              emotions that consumers experience while watching masterpieces to
+              be the driving force behind my dedication to video editing.
+              Whether creating long-form or short-form video content, my
+              ambition and excitement lie in the creativity that editing holds
+              and the thrill of bringing ideas to life.
               <span id="moreDetails">
-                <br />I have completed a total of 12 projects so far, with 7 of
+                {/* <br />I have completed a total of 12 projects so far, with 7 of
                 them utilizing React, and another being a full stack app,
                 demonstrating proficiency in modern web development
                 technologies. I have good understanding how the server side
@@ -80,7 +86,20 @@ function About() {
                 solve complex business challenges. As someone who is open to new
                 opportunities and eager to learn and grow professionally, I am
                 excited about the prospect of blending my skills and experiences
-                within a corporate setting.
+                within a corporate setting. */}
+                <br />
+                As the Director of a full-service production and creative design
+                startup in Kenya, I have had the privilege of working with
+                various clients, including hotels, churches, and makeup brands,
+                as well as producing long-form informative content with
+                thousands of views. My experience spans video production,
+                editing, photography, design, branding, and motion graphics
+                through our company, I-SPLIT CONCEPTS.<br/><br/> My commitment to growing
+                my knowledge and skill set further drives my pursuit of
+                excellence in video production and editing. I am ready to combine my passion
+                and skills with your requirements to create and monitor
+                professional, engaging content that meets the needs of the
+                specified audience.
               </span>
             </p>
 

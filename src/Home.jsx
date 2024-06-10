@@ -8,13 +8,13 @@ function Home() {
     const image = document.getElementById("image");
     const tiltedPlus = document.querySelector(".tiltedPlus");
     const tilted = document.querySelector(".tilted");
-    const shiny = document.getElementById("shiny")
+    const shiny = document.getElementById("shiny");
 
     image.classList.replace("rotationLoadingAnimation", "secondImageAnimation");
     tiltedPlus.style.boxShadow = `7px 0 10px var(--foreground)`;
     tilted.style.boxShadow = `7px 0 10px var(--foreground)`;
 
-    shiny.classList.add('shiny')
+    shiny.classList.add("shiny");
   };
   const socialLinksArr = [
     {
@@ -67,9 +67,12 @@ function Home() {
     //I am a what.. styling... switching between different skills
     const myRoles = document.getElementById("textMotion");
     const myRolesArr = [
-      "Full-Stack Web Engineer",
-      "Frontend Developer",
-      "React Developer",
+      // "Full-Stack Web Engineer",
+      "Creative Video Producer",
+      // "Frontend Developer",
+      "Multimedia Specialist",
+      // "React Developer",
+      "Video Editor",
     ];
     let i = 0;
     const switchRoles = () => {
@@ -97,8 +100,11 @@ function Home() {
             </div>
           </div>
           <p id="firstP">
-            Genuinely interested and driven towards creating visually appealing
-            interfaces that are dynamic and responsive.
+            {/* Genuinely interested and driven towards creating visually appealing
+            interfaces that are dynamic and responsive. */}
+            I will use my passion and skills together with your requirements to
+            create and monitor professional and engaging content that meets the
+            needs of the specified audience.
           </p>
           <div id="socialMedia">
             <button
